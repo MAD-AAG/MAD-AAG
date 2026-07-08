@@ -15,11 +15,11 @@ window.MEETINGS = [
   {
     year:     2026,
     title:    "MAD 2026 Annual Meeting",
-    theme:    "Geography at the Crossroads: People, Place, and Policy",
+    theme:    "Geography at the Crossroads: People, Place, Policy",
     status:   "upcoming",          /* "upcoming" | "past" */
-    date:     "Fall 2026 — Date TBA",
+    date:     "Fall 2026 — November 20, 2026",
     dateISO:  "",                  /* e.g. "2026-11-13" once confirmed */
-    location: "TBA — Mid-Atlantic Region",
+    location: "Harford Community College — Mid-Atlantic Region",
     venue:    "",
     host:     "",
     cfpLink:  "",                  /* URL to call-for-papers form */
@@ -34,13 +34,10 @@ window.MEETINGS = [
       stages, including graduate students.`,
 
     schedule: [
-      { time: "8:00 AM",   event: "Registration & Coffee" },
+      { time: "8:00 AM",   event: "Registration" },
       { time: "9:00 AM",   event: "Opening Remarks & Keynote" },
-      { time: "10:30 AM",  event: "Paper Sessions (Round 1)" },
       { time: "12:00 PM",  event: "Lunch & Networking" },
-      { time: "1:30 PM",   event: "Paper Sessions (Round 2)" },
-      { time: "3:00 PM",   event: "Awards Ceremony" },
-      { time: "3:30 PM",   event: "Closing Reception" }
+      { time: "4:00 PM",   event: "GeoBowl" }
     ],
 
     /* Photos: set src to filename inside photos/meetings/YEAR/ folder.
