@@ -26,6 +26,7 @@ window.PHOTOS = {
   ──────────────────────────────────────────────────────── */
   officers: {
     "tracy-edwards.jpg":      "photos/officers/tracy-edwards.jpg",
+    "louie-kiskowski.jpg":    "photos/officers/louie-kiskowski.png",
     "armita-kar.jpg":         "https://science.gmu.edu/sites/default/files/styles/medium_square/public/2024-09/headshot.jpg",
     "christopher-elcik.jpg":  "https://www.salisbury.edu/_images/directory/cjelcik.jpg",
     "victor-irekponor.jpg":   "https://geospatial.umd.edu/sites/geospatial.umd.edu/files/styles/width320/public/smile.jpeg",
