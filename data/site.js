@@ -82,7 +82,7 @@ window.SITE = {
       institution: "",
       location:    "",
       email:       "louiekiskowski@gmail.com",
-      photo:       "louise-kiskowski.jpg",
+      photo:       "louise-kiskowski.png",
       bio:         ""
     },
     {
@@ -100,7 +100,7 @@ window.SITE = {
       institution: "University of Maryland",
       location:    "Maryland, MD",
       email:       "vireks@terpmail.umd.edu",
-      photo:       "victor-irekponor:.jpg",
+      photo:       "victor-irekponor:.jpeg",
       bio:         ""
     }
   ],
