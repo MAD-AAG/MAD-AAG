@@ -78,11 +78,11 @@ window.SITE = {
     },
     {
       role:        "Regional Councilor",
-      name:        "Louise Kiskowski",
+      name:        "Louie Kiskowski",
       institution: "",
       location:    "",
       email:       "louiekiskowski@gmail.com",
-      photo:       "louise-kiskowski.png",
+      photo:       "louie-kiskowski.png",
       bio:         ""
     },
     {
