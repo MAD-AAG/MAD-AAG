@@ -100,7 +100,7 @@ window.SITE = {
       institution: "University of Maryland",
       location:    "Maryland, MD",
       email:       "vireks@terpmail.umd.edu",
-      photo:       "victor-irekponor:.jpeg",
+      photo:       "victor-irekponor.jpeg",
       bio:         ""
     }
   ],
