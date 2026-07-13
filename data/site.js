@@ -79,11 +79,11 @@ window.SITE = {
     {
       role:        "Regional Councilor",
       name:        "Louie Kiskowski",
-      institution: "",
-      location:    "",
+      institution: "Maryland Historical Trust",
+      location:    "Crownsville, MD",
       email:       "louiekiskowski@gmail.com",
       photo:       "louie-kiskowski.png",
-      bio:         ""
+      bio:         "Dr. Kiskowski focuses on human geography and the geography of Maryland."
     },
     {
       role:        "GeoBowl Coordinator",
