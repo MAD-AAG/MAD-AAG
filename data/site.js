@@ -112,7 +112,7 @@ window.SITE = {
   ──────────────────────────────────────────────────────── */
   pastOfficers: [
     {
-      term: "2023–2025",
+      term: "2023–2026",
       officers: [
         { role: "Chair",             name: "John P. Harrington",   institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
         { role: "Vice-Chair",        name: "Tracy Edwards",         institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
@@ -122,7 +122,7 @@ window.SITE = {
       ]
     },
     {
-      term: "2021–2023",
+      term: "2020–2023",
       officers: [
         { role: "Chair",             name: "John P. Harrington",   institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
         { role: "Vice-Chair",        name: "Tracy Edwards",         institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
