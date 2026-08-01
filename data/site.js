@@ -155,7 +155,6 @@ window.SITE = {
 
   membershipBenefits: [
     { icon: "🗺️", title: "Annual Meeting",        text: "Attend and present at our regional conference with keynotes, panels, field trips, and networking." },
-    { icon: "📰", title: "Division Newsletter",    text: "Receive timely updates on regional events, funding opportunities, and member achievements." },
     { icon: "🤝", title: "Professional Network",  text: "Connect with geographers at universities, government agencies, and private-sector firms across the region." },
     { icon: "🏆", title: "Awards & Recognition",  text: "Eligible for division awards recognizing outstanding research, teaching, and service." },
     { icon: "📢", title: "Voice in Governance",   text: "Vote in officer elections and help shape the division's direction." },
