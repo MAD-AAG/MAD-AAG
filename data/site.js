@@ -125,10 +125,10 @@ window.SITE = {
       term: "2020–2023",
       officers: [
         { role: "Chair",             name: "Jeremy Tasch",     institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
-        { role: "Vice-Chair",        name: "Andrea Presotto",  institution: "Salisbury University",           location: "Frostburg, MD",    photo: "", bio: "" },
-        { role: "Treasurer",         name: "Tracy Edwards",    institution: "Frostburg State University",     location: "Salisbury, MD",    photo: "", bio: "" },
-        { role: "Secretary",         name: "William Kiskowski",institution: "Maryland State Data Center",     location: "Catonsville, MD",  photo: "", bio: "" },
-        { role: "Regional Councilor",name: "Rebecca Kelly",    institution: "Johns Hopkins University",       location: "Towson, MD",       photo: "", bio: "" }
+        { role: "Vice-Chair",        name: "Andrea Presotto",  institution: "Salisbury University",           location: "Salisbury, MD",    photo: "", bio: "" },
+        { role: "Treasurer",         name: "Tracy Edwards",    institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
+        { role: "Secretary",         name: "William Kiskowski",institution: "Maryland State Data Center",     location: "Baltimore, MD",    photo: "", bio: "" },
+        { role: "Regional Councilor",name: "Rebecca Kelly",    institution: "Johns Hopkins University",       location: "Baltimore, MD",    photo: "", bio: "" }
       ]
     }
     /* ── ADD MORE TERMS ABOVE THIS LINE ──
