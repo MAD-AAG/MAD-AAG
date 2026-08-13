@@ -182,45 +182,36 @@ window.SITE = {
   announcements: [
     {
       type:  "info",
-      date:  "June 2026",
-      title: "Save the Date: MAD 2026 Annual Meeting",
-      body:  `The 2026 Annual Meeting is planned for Fall 2026. We are currently finalizing the host institution and theme.
-              Details on location, registration, and the call for papers will be announced by late summer.
-              All AAG members in the Mid-Atlantic region are welcome to attend and submit abstracts.
-              Watch this page for updates, or join the AAG Community Hub for real-time notifications.`,
+      date:  "July 2026",
+      title: "MAD 2026 @ Harford Community College",
+      body:  `We are pleased to invite colleagues and students to the 2026 MAD‑AAG Annual Meeting, 
+              hosted this year at Harford Community College, November 20, 2026. 
+              Our gathering continues MAD's long tradition of fostering geographic scholarship, regional collaboration, and student engagement across Maryland, Delaware, Northern Virginia, and Washington, DC.
+
+              This year's program features two distinguished keynote speakers whose work reflects the breadth and vitality of our discipline.
+              - Jen Chadwick‑Moore, GIS Professional at the Maryland Historical Trust and Maryland's Representative to the U.S. Board on Geographic Names, will deliver the Morning Keynote.
+              - William "Bill" Moseley, Professor at Macalester College and Past President of the AAG (2025–2026), will offer the Afternoon Lunchtime Keynote.
+
+              We look forward to a day of shared inquiry, thoughtful conversation, GEOBOWL Competition, and the continued strengthening of our regional MAD community. We hope you will join us-and encourage your students and colleagues to participate-in what will be an engaging and collegial meeting.
+              Hosting the meeting at Harford Community College extends MAD's ongoing effort-advanced last year through Anne Arundel Community College-to reach the institutions, colleagues, and students on whom the discipline's continued vibrancy depends.
+
+              Registration, abstract submission, and student best research competition submissions all open on August 17th.`,
       link:      "",
       linkLabel: "View Meeting Page"
     },
     {
-      type:  "",
-      date:  "May 2026",
-      title: "Officer Election Results",
-      body:  `The 2026 MAD officer elections have concluded. Congratulations to all newly elected officers —
-              results were announced to the full membership list in May.
-              Newly elected officers will begin their terms at the close of the 2026 Annual Meeting.
-              Thank you to all candidates and members who participated in the democratic process that keeps our division strong.`
-    },
-    {
       type:  "info",
-      date:  "March 2026",
-      title: "Geography Awareness Week — Call for Ideas",
-      body:  `Geography Awareness Week takes place each November. Members are encouraged to plan local events —
-              public lectures, map exhibitions, K-12 school visits, or social media campaigns — to celebrate
-              and promote the discipline in their communities.
-              If you are organizing an event, please share your plans with the Secretary so we can help publicize them
-              through the division newsletter and social channels.`
-    },
-    {
-      type:  "",
-      date:  "January 2026",
-      title: "AAG Annual Meeting — MAD Member Participation",
-      body:  `Many MAD members will be presenting research at the AAG Annual Meeting this spring.
-              Look out for the MAD informal networking dinner — we gather each year to connect with
-              regional colleagues in person during the conference.
-              Details on the dinner location and RSVP will be posted to the AAG Community Hub approximately
-              three weeks before the meeting. Check the hub or contact any officer for information.`,
-      link:      "https://community.aag.org/communities/community-home?communitykey=2d830a49-06ea-468e-9f44-6bda5210aca8",
-      linkLabel: "Visit Community Hub"
+      date:  "July 2026",
+      title: "Officer Election Results",
+      body:  `The 2026-2029 MAD officer elections have concluded. The following individuals have been newly appointed to the board.
+              - Chair: Jeremy Tasch
+              - Vice Chair: Wataru Morioka
+              - Secretary/Webmaster: Armita Kar
+              - Treasurer: Tracy Edwards
+              - Regional Councilor: Louie Kiskowski
+              - Geography Bowl Coordinator: Christopher Elcik
+              - Student Representative: Victor Irekponor
+              Thank you to all candidates and members who participated in the democratic process that keeps our division strong.`
     }
     /* ── ADD NEW ANNOUNCEMENTS ABOVE THIS LINE ── */
   ],
@@ -231,7 +222,7 @@ window.SITE = {
    * of the Announcements page. Do not edit these — they are preserved as-is.
    */
   archivedAnnouncements: [
-    {
+    /*{
       type: "meeting",
       date: "June 10, 2013",
       title: "2013 MAD-AAG Conference Announcement",
@@ -448,7 +439,7 @@ We have had joint meetings in the past, but this is the first with PGA. It shoul
 
 — Cathy Cooper, Chair, MAD`
     }
-  ],
+  ],*/
 
   /* ── NEWSLETTER ───────────────────────────────────────────
      link: URL to the PDF or page. Use "" if not yet available.
