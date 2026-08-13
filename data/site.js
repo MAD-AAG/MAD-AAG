@@ -181,36 +181,36 @@ window.SITE = {
    */
   announcements: [
     {
-      type:  "meeting",
+      type:  "",
       date:  "July 2026",
       title: "Save the Date: MAD 2026 @ Harford Community College",
-      body:  `We are pleased to invite colleagues and students to the 2026 MAD‑AAG Annual Meeting, 
-              hosted this year at Harford Community College, November 20, 2026. 
-              Our gathering continues MAD's long tradition of fostering geographic scholarship, regional collaboration, and student engagement across Maryland, Delaware, Northern Virginia, and Washington, DC.
+      body:  `We are pleased to invite colleagues and students to the 2026 MAD‑AAG Annual Meeting, hosted this year at Harford Community College, November 20, 2026. Our gathering continues MAD's long tradition of fostering geographic scholarship, regional collaboration, and student engagement across Maryland, Delaware, Northern Virginia, and Washington, DC.
 
               This year's program features two distinguished keynote speakers whose work reflects the breadth and vitality of our discipline.
-              - Jen Chadwick‑Moore, GIS Professional at the Maryland Historical Trust and Maryland's Representative to the U.S. Board on Geographic Names, will deliver the Morning Keynote.
-              - William "Bill" Moseley, Professor at Macalester College and Past President of the AAG (2025–2026), will offer the Afternoon Lunchtime Keynote.
+              
+              • Jen Chadwick‑Moore, GIS Professional at the Maryland Historical Trust and Maryland's Representative to the U.S. Board on Geographic Names, will deliver the Morning Keynote.
+              • William "Bill" Moseley, Professor at Macalester College and Past President of the AAG (2025–2026), will offer the Afternoon Lunchtime Keynote.
 
-              We look forward to a day of shared inquiry, thoughtful conversation, GEOBOWL Competition, and the continued strengthening of our regional MAD community. We hope you will join us-and encourage your students and colleagues to participate-in what will be an engaging and collegial meeting.
-              Hosting the meeting at Harford Community College extends MAD's ongoing effort-advanced last year through Anne Arundel Community College-to reach the institutions, colleagues, and students on whom the discipline's continued vibrancy depends.
-
+              We look forward to a day of shared inquiry, thoughtful conversation, GEOBOWL Competition, and the continued strengthening of our regional MAD community. We hope you will join us-and encourage your students and colleagues to participate-in what will be an engaging and collegial meeting. Hosting the meeting at Harford Community College extends MAD's ongoing effort-advanced last year through Anne Arundel Community College-to reach the institutions, colleagues, and students on whom the discipline's continued vibrancy depends.
+              
               Registration, abstract submission, and student best research competition submissions all open on August 17th.`,
       link:      "",
       linkLabel: "View Meeting Page"
     },
     {
-      type:  "info",
+      type:  "",
       date:  "July 2026",
       title: "Officer Election Results",
       body:  `The 2026-2029 MAD officer elections have concluded. The following individuals have been newly appointed to the board.
-              - Chair: Jeremy Tasch
-              - Vice Chair: Wataru Morioka
-              - Secretary/Webmaster: Armita Kar
-              - Treasurer: Tracy Edwards
-              - Regional Councilor: Louie Kiskowski
-              - Geography Bowl Coordinator: Christopher Elcik
-              - Student Representative: Victor Irekponor
+      
+              • Chair: Jeremy Tasch
+              • Vice Chair: Wataru Morioka
+              • Secretary/Webmaster: Armita Kar
+              • Treasurer: Tracy Edwards
+              • Regional Councilor: Louie Kiskowski
+              • Geography Bowl Coordinator: Christopher Elcik
+              • Student Representative (2026): Victor Irekponor
+              
               Thank you to all candidates and members who participated in the democratic process that keeps our division strong.`
     }
     /* ── ADD NEW ANNOUNCEMENTS ABOVE THIS LINE ── */
