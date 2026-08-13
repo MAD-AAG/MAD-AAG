@@ -18,7 +18,7 @@ window.MEETINGS = [
     theme:    "Geography at the Crossroads: People, Place, Policy",
     status:   "upcoming",          /* "upcoming" | "past" */
     date:     "Fall 2026 — November 20, 2026",
-    dateISO:  "",                  /* e.g. "2026-11-13" once confirmed */
+    dateISO:  "2026-11-20",        /* e.g. "2026-11-13" once confirmed */
     location: "Harford Community College — Mid-Atlantic Region",
     venue:    "",
     host:     "",
@@ -31,7 +31,7 @@ window.MEETINGS = [
       geographers from across Maryland, Northern Virginia, and Washington, DC
       for a full day of paper sessions, keynote lectures, and collegial exchange.
       We welcome contributions from all geographic subdisciplines and career
-      stages, including graduate students.`,
+      stages, including students from high school to graduate level.`,
 
     schedule: [
       { time: "8:00 AM",   event: "Registration" },
@@ -65,7 +65,7 @@ window.MEETINGS = [
     status:   "past",
     date:     "November 21, 2025",
     dateISO:  "2025-11-21",
-    location: "Mid-Atlantic Region",
+    location: "Anne Arundel Community College — Mid-Atlantic Region",
     venue:    "",
     host:     "",
     cfpLink:  "https://www.aag.org/events/from-appalachia-to-the-atlantic-mad-2025/",
@@ -78,13 +78,12 @@ window.MEETINGS = [
       landscape, culture, economy, and policy intersect across this storied corridor.`,
 
     schedule: [
-      { time: "8:30 AM",  event: "Registration" },
-      { time: "9:00 AM",  event: "Opening & Keynote" },
-      { time: "10:30 AM", event: "Paper Sessions" },
-      { time: "12:00 PM", event: "Lunch" },
-      { time: "1:30 PM",  event: "Paper Sessions" },
-      { time: "3:00 PM",  event: "Business Meeting & Awards" },
-      { time: "3:45 PM",  event: "Reception" }
+      { time: "8:00 AM",  event: "Registration" },
+      { time: "9:00 AM",  event: "Opening & Paper Session A" },
+      { time: "10:45 AM", event: "Keynote I" },
+      { time: "12:00 PM", event: "Lunch & Keynote II" },
+      { time: "1:45 PM",  event: "Paper Sessions B" },
+      { time: "3:30 PM",  event: "Geography Bowl" }
     ],
 
     photos: [
@@ -95,13 +94,15 @@ window.MEETINGS = [
     ],
 
     highlights: [
-      "Record attendance from across the tri-state region",
-      "Keynote exploring Appalachian landscape change",
-      "Student paper competition with three finalists"
+      "Record attendance from across the tri-state region.",
+      "Keynotes exploring how to build the next generation of geographers.",
+      "Spoiler team won the regional geography bowl."
     ],
 
     awards: [
-      /* { award: "Best Student Paper", recipient: "Name", institution: "University" } */
+      { award: "AAG Council Award (Graduate) Tied", recipient: "Maxwell Gundling", institution: "Salisbury University" } ,
+      { award: "AAG Council Award (Graduate) Tied", recipient: "Haijun Li", institution: "University of Maryland, College Park" } ,
+      { award: "MAGMA", recipient: "Maya Clark", institution: "Towson University" }
     ]
   },
 
@@ -115,7 +116,7 @@ window.MEETINGS = [
     status:   "past",
     date:     "November 22, 2024",
     dateISO:  "2024-11-22",
-    location: "Mid-Atlantic Region",
+    location: "University Of Maryland, Baltimore County— Mid-Atlantic Region",
     venue:    "",
     host:     "",
     cfpLink:  "https://www.aag.org/events/geography-matters-2024-middle-atlantic-division-aag-annual-meeting/",
@@ -145,7 +146,7 @@ window.MEETINGS = [
   ══════════════════════════════════════════════════════════ */
   {
     year:     2023,
-    title:    "2023 Middle Atlantic Regional Division Meeting",
+    title:    "Middle Atlantic Regional Division Meeting",
     theme:    "",
     status:   "past",
     date:     "October 12–13, 2023",
