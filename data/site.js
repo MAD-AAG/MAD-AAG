@@ -181,7 +181,7 @@ window.SITE = {
    */
   announcements: [
     {
-      type:  "info",
+      type:  "meeting",
       date:  "July 2026",
       title: "MAD 2026 @ Harford Community College",
       body:  `We are pleased to invite colleagues and students to the 2026 MAD‑AAG Annual Meeting, 
