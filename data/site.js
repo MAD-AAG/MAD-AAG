@@ -183,7 +183,7 @@ window.SITE = {
     {
       type:  "meeting",
       date:  "July 2026",
-      title: "MAD 2026 @ Harford Community College",
+      title: "Save the Date: MAD 2026 @ Harford Community College",
       body:  `We are pleased to invite colleagues and students to the 2026 MAD‑AAG Annual Meeting, 
               hosted this year at Harford Community College, November 20, 2026. 
               Our gathering continues MAD's long tradition of fostering geographic scholarship, regional collaboration, and student engagement across Maryland, Delaware, Northern Virginia, and Washington, DC.
