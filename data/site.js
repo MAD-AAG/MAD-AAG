@@ -222,7 +222,7 @@ window.SITE = {
    * of the Announcements page. Do not edit these — they are preserved as-is.
    */
   archivedAnnouncements: [
-    /*{
+    {
       type: "meeting",
       date: "June 10, 2013",
       title: "2013 MAD-AAG Conference Announcement",
@@ -439,7 +439,7 @@ We have had joint meetings in the past, but this is the first with PGA. It shoul
 
 — Cathy Cooper, Chair, MAD`
     }
-  ],*/
+  ],
 
   /* ── NEWSLETTER ───────────────────────────────────────────
      link: URL to the PDF or page. Use "" if not yet available.
