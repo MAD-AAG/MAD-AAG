@@ -14,12 +14,12 @@ window.MEETINGS = [
   ══════════════════════════════════════════════════════════ */
   {
     year:     2026,
-    title:    "MAD 2026 Annual Meeting",
+    title:    "MAD-AAG Annual Meeting '26",
     theme:    "Geography at the Crossroads: People, Place, Policy",
     status:   "upcoming",          /* "upcoming" | "past" */
-    date:     "Fall 2026 — November 20, 2026",
+    date:     "November 20, 2026",
     dateISO:  "2026-11-20",        /* e.g. "2026-11-13" once confirmed */
-    location: "Harford Community College — Mid-Atlantic Region",
+    location: "Harford Community College",
     venue:    "",
     host:     "",
     cfpLink:  "",                  /* URL to call-for-papers form */
@@ -60,12 +60,12 @@ window.MEETINGS = [
   ══════════════════════════════════════════════════════════ */
   {
     year:     2025,
-    title:    "From Appalachia to the Atlantic",
+    title:    "MAD-AAG Annual Meeting '25",
     theme:    "From Appalachia to the Atlantic",
     status:   "past",
     date:     "November 21, 2025",
     dateISO:  "2025-11-21",
-    location: "Anne Arundel Community College — Mid-Atlantic Region",
+    location: "Anne Arundel Community College, Arnold, MD",
     venue:    "",
     host:     "",
     cfpLink:  "https://www.aag.org/events/from-appalachia-to-the-atlantic-mad-2025/",
@@ -111,12 +111,12 @@ window.MEETINGS = [
   ══════════════════════════════════════════════════════════ */
   {
     year:     2024,
-    title:    "Geography Matters",
+    title:    "MAD-AAG Annual Meeting '24",
     theme:    "Geography Matters",
     status:   "past",
     date:     "November 22, 2024",
     dateISO:  "2024-11-22",
-    location: "University Of Maryland, Baltimore County— Mid-Atlantic Region",
+    location: "University of Maryland, Baltimore County (UMBC), Catonsville, MD",
     venue:    "",
     host:     "",
     cfpLink:  "https://www.aag.org/events/geography-matters-2024-middle-atlantic-division-aag-annual-meeting/",
