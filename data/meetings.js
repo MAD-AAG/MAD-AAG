@@ -19,7 +19,7 @@ window.MEETINGS = [
     status:   "upcoming",          /* "upcoming" | "past" */
     date:     "November 20, 2026",
     dateISO:  "2026-11-20",        /* e.g. "2026-11-13" once confirmed */
-    location: "Harford Community College",
+    location: "Harford Community College, Bel Air, MD",
     venue:    "",
     host:     "",
     cfpLink:  "",                  /* URL to call-for-papers form */
@@ -140,18 +140,42 @@ window.MEETINGS = [
     highlights: [],
     awards: []
   },
-
+  
   /* ══════════════════════════════════════════════════════════
-     2023 MEETING
+     2023 MEETING2
   ══════════════════════════════════════════════════════════ */
   {
     year:     2023,
-    title:    "Middle Atlantic Regional Division Meeting",
+    title:    "MAD-AAG Annual Meeting '23 (2) with Pennsylvania Geographic Society",
     theme:    "",
     status:   "past",
-    date:     "October 12–13, 2023",
-    dateISO:  "2023-10-12",
-    location: "Mid-Atlantic Region",
+    date:     "November 3, 2023",
+    dateISO:  "2023-11-3",
+    location: "Salisbury University, Salisbury, MD",
+    venue:    "",
+    host:     "",
+    cfpLink:  "",
+    regLink:  "",
+    programLink: "https://thepgs.org/2023-Annual-Meeting",
+    keynote:  "",
+    description: ``,
+    schedule: [],
+    photos: [],
+    highlights: [],
+    awards: []
+  },
+  
+  /* ══════════════════════════════════════════════════════════
+     2023 MEETING1
+  ══════════════════════════════════════════════════════════ */
+  {
+    year:     2023,
+    title:    "MAD-AAG Annual Meeting '23 (1) with Race, Ethnicity and Place",
+    theme:    "Mapping and Empowerment",
+    status:   "past",
+    date:     "October 11–14, 2023",
+    dateISO:  "2023-10-11",
+    location: "George Washington University, Washington, DC",
     venue:    "",
     host:     "",
     cfpLink:  "https://www.aag.org/events/2023-middle-atlantic-regional-division-meeting/",
@@ -159,13 +183,9 @@ window.MEETINGS = [
     programLink: "",
     keynote:  "",
     description: `The 2023 annual meeting brought together the MAD community for
-      two days of presentations, discussions, and networking.`,
+      three days of presentations, discussions, and networking.`,
     schedule: [],
-    photos: [
-      { src: "", caption: "Day 1 sessions",    placeholder: true, tall: true  },
-      { src: "", caption: "Day 2 sessions",    placeholder: true, tall: false },
-      { src: "", caption: "Field excursion",   placeholder: true, tall: false }
-    ],
+    photos: [],
     highlights: [],
     awards: []
   },
@@ -175,12 +195,12 @@ window.MEETINGS = [
   ══════════════════════════════════════════════════════════ */
   {
     year:     2022,
-    title:    "Re-Imagining the 'Post'",
-    theme:    "Resilience, Recovery, Reinvention",
+    title:    "MAD-AAG Annual Meeting '22",
+    theme:    "Re-Imagining the Post: Resilience, Recovery, Reinvention",
     status:   "past",
     date:     "October 21–22, 2022",
     dateISO:  "2022-10-21",
-    location: "Mid-Atlantic Region",
+    location: "Maryland Historical Trust, Crownsville, MD",
     venue:    "",
     host:     "",
     cfpLink:  "https://www.aag.org/events/mad-2022-re-imagining-the-post-resilience-recovery-reinvention/",
