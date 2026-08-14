@@ -263,7 +263,7 @@ function renderMeetingDetail(year) {
   const m = (window.MEETINGS || []).find(x => x.year == year);
   if (!m) { document.getElementById('meeting-detail-content').innerHTML = '<p>Meeting not found.</p>'; return; }
 
-  document.getElementById('archive-year').textContent  = yearLabel(m);
+  document.getElementById('archive-year').textContent  = m.year;
   document.getElementById('archive-title').textContent = m.title;
   document.getElementById('archive-theme').textContent = m.theme ? `"${m.theme}"` : '';
   document.getElementById('archive-meta').innerHTML = `
@@ -489,7 +489,7 @@ function buildFooter() {
   document.getElementById('footer-aag-url').href      = S.aagUrl;
   document.getElementById('footer-aag-url').textContent = S.aagUrl.replace('https://', '');
 
-  const meetings = madMeetings().slice(0, 4);
+  const meetings = (window.MEETINGS || []).sort((a, b) => b.year - a.year).slice(0, 4);
   document.getElementById('footer-meetings').innerHTML = meetings.map(m =>
     `<li><span onclick="showPage('meeting-detail',{year:${m.year}})">${m.year} — ${m.title.slice(0,30)}${m.title.length > 30 ? '…' : ''}</span></li>`
   ).join('');

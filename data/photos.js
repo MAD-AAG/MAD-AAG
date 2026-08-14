@@ -30,21 +30,34 @@ window.PHOTOS = {
   /* ── MEETING PHOTOS ─────────────────────────────────────── */
   meetings: {
 
+    2026: {
+      "aag2026_bowl_01.jpg": "photos/meetings/aag2026/aag2026_bowl_01.jpg",
+      "aag2026_bowl_02.jpg": "photos/meetings/aag2026/aag2026_bowl_02.jpg",
+      "aag2026_bowl_03.jpg": "photos/meetings/aag2026/aag2026_bowl_03.jpg",
+      "aag2026_bowl_04.jpg": "photos/meetings/aag2026/aag2026_bowl_04.jpg",
+      "aag2026_bowl_05.jpg": "photos/meetings/aag2026/aag2026_bowl_05.jpg",
+      "aag2026_bowl_06.jpg": "photos/meetings/aag2026/aag2026_bowl_06.jpg",
+      "aag2026_bowl_07.jpg": "photos/meetings/aag2026/aag2026_bowl_07.jpg"
+    },
+
     2025: {
-      "2025_general_01.jpg": "photos/meetings/2025/2025_general_01.jpg",
-      "2025_general_02.jpg": "photos/meetings/2025/2025_general_02.jpg",
-      "2025_general_03.jpg": "photos/meetings/2025/2025_general_03.jpg",
-      "2025_general_04.jpg": "photos/meetings/2025/2025_general_04.jpg",
-      "2025_general_05.jpg": "photos/meetings/2025/2025_general_05.jpg",
-      "2025_general_06.jpg": "photos/meetings/2025/2025_general_06.jpg",
-      "2025_general_07.jpg": "photos/meetings/2025/2025_general_07.jpg",
-      "2025_general_08.jpg": "photos/meetings/2025/2025_general_08.jpg",
-      "2025_bowl_01.jpg":    "photos/meetings/2025/2025_bowl_01.jpg",
-      "2025_bowl_02.jpg":    "photos/meetings/2025/2025_bowl_02.jpg",
-      "2025_bowl_03.jpg":    "photos/meetings/2025/2025_bowl_03.jpg",
-      "2025_bowl_04.jpg":    "photos/meetings/2025/2025_bowl_04.jpg",
-      "2025_bowl_05.jpg":    "photos/meetings/2025/2025_bowl_05.jpg",
-      "2025_bowl_06.jpg":    "photos/meetings/2025/2025_bowl_06.jpg"
+      "2025_general_01.jpg":  "photos/meetings/2025/2025_general_01.jpg",
+      "2025_general_02.jpg":  "photos/meetings/2025/2025_general_02.jpg",
+      "2025_general_03.jpg":  "photos/meetings/2025/2025_general_03.jpg",
+      "2025_general_04.jpg":  "photos/meetings/2025/2025_general_04.jpg",
+      "2025_general_05.jpg":  "photos/meetings/2025/2025_general_05.jpg",
+      "2025_bowl_01.jpg":     "photos/meetings/2025/2025_bowl_01.jpg",
+      "2025_bowl_02.jpg":     "photos/meetings/2025/2025_bowl_02.jpg",
+      "2025_bowl_03.jpg":     "photos/meetings/2025/2025_bowl_03.jpg",
+      "2025_bowl_04.jpg":     "photos/meetings/2025/2025_bowl_04.jpg",
+      "2025_bowl_05.jpg":     "photos/meetings/2025/2025_bowl_05.jpg",
+      "2025_bowl_06.jpg":     "photos/meetings/2025/2025_bowl_06.jpg",
+      "aag2025_bowl_01.jpg":  "photos/meetings/aag2025/aag2025_bowl_01.jpg",
+      "aag2025_bowl_02.jpg":  "photos/meetings/aag2025/aag2025_bowl_02.jpg",
+      "aag2025_bowl_03.jpg":  "photos/meetings/aag2025/aag2025_bowl_03.jpg",
+      "aag2025_bowl_04.jpg":  "photos/meetings/aag2025/aag2025_bowl_04.jpg",
+      "aag2025_bowl_05.jpg":  "photos/meetings/aag2025/aag2025_bowl_05.jpg",
+      "aag2025_bowl_06.jpg":  "photos/meetings/aag2025/aag2025_bowl_06.jpg"
     },
 
     2024: {
@@ -125,30 +138,8 @@ window.PHOTOS = {
       "2016_bowl_02.jpg": "photos/meetings/2016/2016_bowl_02.jpg",
       "2016_bowl_03.jpg": "photos/meetings/2016/2016_bowl_03.jpg",
       "2016_bowl_04.jpg": "photos/meetings/2016/2016_bowl_04.jpg"
-    },
-
-    /* AAG Annual Meeting GeoBowl photos (separate from MAD annual meeting) */
-    20250: {
-      "aag2025_bowl_01.jpg": "photos/meetings/aag2025/aag2025_bowl_01.jpg",
-      "aag2025_bowl_02.jpg": "photos/meetings/aag2025/aag2025_bowl_02.jpg",
-      "aag2025_bowl_03.jpg": "photos/meetings/aag2025/aag2025_bowl_03.jpg",
-      "aag2025_bowl_04.jpg": "photos/meetings/aag2025/aag2025_bowl_04.jpg",
-      "aag2025_bowl_05.jpg": "photos/meetings/aag2025/aag2025_bowl_05.jpg",
-      "aag2025_bowl_06.jpg": "photos/meetings/aag2025/aag2025_bowl_06.jpg",
-      "aag2025_bowl_07.jpg": "photos/meetings/aag2025/aag2025_bowl_07.jpg",
-      "aag2025_bowl_08.jpg": "photos/meetings/aag2025/aag2025_bowl_08.jpg",
-      "aag2025_bowl_09.jpg": "photos/meetings/aag2025/aag2025_bowl_09.jpg"
-    },
-
-    20260: {
-      "aag2026_bowl_01.jpg": "photos/meetings/aag2026/aag2026_bowl_01.jpg",
-      "aag2026_bowl_02.jpg": "photos/meetings/aag2026/aag2026_bowl_02.jpg",
-      "aag2026_bowl_03.jpg": "photos/meetings/aag2026/aag2026_bowl_03.jpg",
-      "aag2026_bowl_04.jpg": "photos/meetings/aag2026/aag2026_bowl_04.jpg",
-      "aag2026_bowl_05.jpg": "photos/meetings/aag2026/aag2026_bowl_05.jpg",
-      "aag2026_bowl_06.jpg": "photos/meetings/aag2026/aag2026_bowl_06.jpg",
-      "aag2026_bowl_07.jpg": "photos/meetings/aag2026/aag2026_bowl_07.jpg"
     }
+
   }
 
 }; /* END window.PHOTOS */

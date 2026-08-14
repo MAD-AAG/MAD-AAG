@@ -28,7 +28,15 @@ window.MEETINGS = [
       { time: "12:00 PM", event: "Lunch & Networking" },
       { time: "4:00 PM",  event: "GeoBowl" }
     ],
-    photos:     [],
+    photos: [
+      { src: "aag2026_bowl_01.jpg", caption: "AAG GeoBowl 2026",  placeholder: false, tall: true  },
+      { src: "aag2026_bowl_02.jpg", caption: "MAD team",           placeholder: false, tall: false },
+      { src: "aag2026_bowl_03.jpg", caption: "Bowl action",         placeholder: false, tall: false },
+      { src: "aag2026_bowl_04.jpg", caption: "Competitors",         placeholder: false, tall: false },
+      { src: "aag2026_bowl_05.jpg", caption: "Competition",         placeholder: false, tall: false },
+      { src: "aag2026_bowl_06.jpg", caption: "Bowl highlights",     placeholder: false, tall: false },
+      { src: "aag2026_bowl_07.jpg", caption: "Team celebration",    placeholder: false, tall: false }
+    ],
     highlights: [],
     awards:     []
   },
@@ -58,14 +66,20 @@ window.MEETINGS = [
       { time: "3:30 PM",  event: "Geography Bowl" }
     ],
     photos: [
-      { src: "2025_general_01.jpg", caption: "Session presenters",  placeholder: false, tall: true  },
-      { src: "2025_general_02.jpg", caption: "Kent State reunion",   placeholder: false, tall: false },
-      { src: "2025_general_03.jpg", caption: "Meeting highlights",   placeholder: false, tall: false },
-      { src: "2025_general_04.jpg", caption: "Attendees",            placeholder: false, tall: false },
-      { src: "2025_general_05.jpg", caption: "Paper session A",      placeholder: false, tall: false },
-      { src: "2025_bowl_01.jpg",    caption: "Geography Bowl",       placeholder: false, tall: false },
-      { src: "2025_bowl_02.jpg",    caption: "Bowl competitors",     placeholder: false, tall: false },
-      { src: "2025_bowl_03.jpg",    caption: "Bowl action",          placeholder: false, tall: false }
+      { src: "2025_general_01.jpg",  caption: "Session presenters",   placeholder: false, tall: true  },
+      { src: "2025_general_02.jpg",  caption: "Kent State reunion",    placeholder: false, tall: false },
+      { src: "2025_general_03.jpg",  caption: "Meeting highlights",    placeholder: false, tall: false },
+      { src: "2025_general_04.jpg",  caption: "Attendees",             placeholder: false, tall: false },
+      { src: "2025_general_05.jpg",  caption: "Paper session A",       placeholder: false, tall: false },
+      { src: "2025_bowl_01.jpg",     caption: "Geography Bowl",        placeholder: false, tall: false },
+      { src: "2025_bowl_02.jpg",     caption: "Bowl competitors",      placeholder: false, tall: false },
+      { src: "2025_bowl_03.jpg",     caption: "Bowl action",           placeholder: false, tall: false },
+      { src: "aag2025_bowl_01.jpg",  caption: "AAG GeoBowl 2025",     placeholder: false, tall: false },
+      { src: "aag2025_bowl_02.jpg",  caption: "AAG Bowl - MAD team",  placeholder: false, tall: false },
+      { src: "aag2025_bowl_03.jpg",  caption: "AAG Bowl action",       placeholder: false, tall: false },
+      { src: "aag2025_bowl_04.jpg",  caption: "AAG Bowl competitors",  placeholder: false, tall: false },
+      { src: "aag2025_bowl_05.jpg",  caption: "AAG Bowl competition",  placeholder: false, tall: false },
+      { src: "aag2025_bowl_06.jpg",  caption: "AAG Bowl highlights",   placeholder: false, tall: false }
     ],
     highlights: [
       "Record attendance from across the tri-state region.",
@@ -128,12 +142,12 @@ window.MEETINGS = [
     description: "A joint meeting with the Pennsylvania Geographic Society held at Salisbury University, bringing together geographers from across the region.",
     schedule:    [],
     photos: [
-      { src: "2023_bowl_01.jpg", caption: "Geography Bowl",       placeholder: false, tall: true  },
-      { src: "2023_bowl_02.jpg", caption: "Bowl teams",           placeholder: false, tall: false },
-      { src: "2023_bowl_03.jpg", caption: "Competitors",          placeholder: false, tall: false },
-      { src: "2023_bowl_04.jpg", caption: "Bowl action",          placeholder: false, tall: false },
-      { src: "2023_bowl_05.jpg", caption: "Bowl presentations",   placeholder: false, tall: false },
-      { src: "2023_bowl_06.jpg", caption: "Bowl highlights",      placeholder: false, tall: false }
+      { src: "2023_bowl_01.jpg", caption: "Geography Bowl",      placeholder: false, tall: true  },
+      { src: "2023_bowl_02.jpg", caption: "Bowl teams",          placeholder: false, tall: false },
+      { src: "2023_bowl_03.jpg", caption: "Competitors",         placeholder: false, tall: false },
+      { src: "2023_bowl_04.jpg", caption: "Bowl action",         placeholder: false, tall: false },
+      { src: "2023_bowl_05.jpg", caption: "Bowl presentations",  placeholder: false, tall: false },
+      { src: "2023_bowl_06.jpg", caption: "Bowl highlights",     placeholder: false, tall: false }
     ],
     highlights: [],
     awards:     []
@@ -192,7 +206,7 @@ window.MEETINGS = [
     awards:     []
   },
 
-  /* ----- 2016 MEETING (Geography Bowl photos) ----- */
+  /* ----- 2016 MEETING ----- */
   {
     year:        2016,
     title:       "MAD-AAG Annual Meeting '16",
@@ -217,65 +231,6 @@ window.MEETINGS = [
     ],
     highlights: [],
     awards:     []
-  },
-
-  /* ----- AAG 2026 GEOGRAPHY BOWL (national AAG meeting, separate from MAD annual) ----- */
-  {
-    year:        20260,
-    title:       "AAG 2026 Geography Bowl",
-    theme:       "MAD Team at the AAG Annual Meeting",
-    status:      "past",
-    date:        "2026",
-    dateISO:     "2026-04-01",
-    location:    "AAG Annual Meeting",
-    venue:       "",
-    host:        "",
-    cfpLink:     "",
-    regLink:     "",
-    programLink: "",
-    keynote:     "",
-    description: "MAD students represented the region at the national AAG Geography Bowl competition.",
-    schedule:    [],
-    photos: [
-      { src: "aag2026_bowl_01.jpg", caption: "AAG GeoBowl 2026", placeholder: false, tall: true  },
-      { src: "aag2026_bowl_02.jpg", caption: "MAD team",         placeholder: false, tall: false },
-      { src: "aag2026_bowl_03.jpg", caption: "Bowl action",       placeholder: false, tall: false },
-      { src: "aag2026_bowl_04.jpg", caption: "Competitors",       placeholder: false, tall: false },
-      { src: "aag2026_bowl_05.jpg", caption: "Competition",       placeholder: false, tall: false },
-      { src: "aag2026_bowl_06.jpg", caption: "Bowl highlights",   placeholder: false, tall: false },
-      { src: "aag2026_bowl_07.jpg", caption: "Team celebration",  placeholder: false, tall: false }
-    ],
-    highlights: [],
-    awards:     []
-  },
-
-  /* ----- AAG 2025 GEOGRAPHY BOWL (national AAG meeting, separate from MAD annual) ----- */
-  {
-    year:        20250,
-    title:       "AAG 2025 Geography Bowl",
-    theme:       "MAD Team at the AAG Annual Meeting",
-    status:      "past",
-    date:        "2025",
-    dateISO:     "2025-04-01",
-    location:    "AAG Annual Meeting",
-    venue:       "",
-    host:        "",
-    cfpLink:     "",
-    regLink:     "",
-    programLink: "",
-    keynote:     "",
-    description: "MAD students represented the region at the national AAG Geography Bowl competition.",
-    schedule:    [],
-    photos: [
-      { src: "aag2025_bowl_01.jpg", caption: "AAG GeoBowl 2025", placeholder: false, tall: true  },
-      { src: "aag2025_bowl_02.jpg", caption: "MAD team",         placeholder: false, tall: false },
-      { src: "aag2025_bowl_03.jpg", caption: "Bowl action",       placeholder: false, tall: false },
-      { src: "aag2025_bowl_04.jpg", caption: "Competitors",       placeholder: false, tall: false },
-      { src: "aag2025_bowl_05.jpg", caption: "Competition",       placeholder: false, tall: false },
-      { src: "aag2025_bowl_06.jpg", caption: "Bowl highlights",   placeholder: false, tall: false }
-    ],
-    highlights: [],
-    awards:     []
   }
 
   /*
@@ -289,8 +244,6 @@ window.MEETINGS = [
    *   date:        "Fall 2027 - Date TBA",
    *   dateISO:     "",
    *   location:    "TBA",
-   *   venue:       "",
-   *   host:        "",
    *   cfpLink:     "",
    *   regLink:     "",
    *   programLink: "",
@@ -301,13 +254,10 @@ window.MEETINGS = [
    *     { time: "9:00 AM", event: "Keynote" }
    *   ],
    *   photos: [
-   *     { src: "2027_general_01.jpg", caption: "Caption", placeholder: false, tall: true },
-   *     { src: "",                     caption: "Caption", placeholder: true,  tall: false }
+   *     { src: "2027_photo01.jpg", caption: "Caption", placeholder: false, tall: true }
    *   ],
-   *   highlights: ["Highlight 1", "Highlight 2"],
-   *   awards: [
-   *     { award: "Best Student Paper", recipient: "Name", institution: "University" }
-   *   ]
+   *   highlights: [],
+   *   awards: []
    * },
    */
 
