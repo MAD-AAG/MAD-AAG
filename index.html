@@ -38,8 +38,8 @@
       <a class="nav-link" data-page="membership"     onclick="showPage('membership');return false;">Membership</a>
 
       <!-- Meetings dropdown -->
-      <div class="nav-dropdown" id="meetings-nav-dropdown">
-        <a class="nav-link" data-page="meetings" id="meetings-nav-btn" onclick="toggleMeetingsDropdown(event)">Meetings ▾</a>
+      <div class="nav-dropdown">
+        <a class="nav-link" data-page="meetings" onclick="if(window.innerWidth>820){showPage('meetings');return false;}">Meetings</a>
         <div class="dropdown-menu" id="meetings-dropdown">
           <!-- Populated by app.js from meetings data -->
         </div>
@@ -176,7 +176,7 @@
   <section class="section">
     <div class="container">
       <p class="eyebrow">Current Term</p>
-      <h2>2026–2029 Officers</h2>
+      <h2>2025–2027 Officers</h2>
       <div class="divider"></div>
       <div class="grid-3" id="officers-grid"></div>
 
