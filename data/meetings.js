@@ -145,7 +145,7 @@ window.MEETINGS = [
      2023 MEETING2
   ══════════════════════════════════════════════════════════ */
   {
-    year:     2023,
+    year:     2023-2,
     title:    "MAD-AAG Annual Meeting '23 (2) with Pennsylvania Geographic Society",
     theme:    "",
     status:   "past",
@@ -169,7 +169,7 @@ window.MEETINGS = [
      2023 MEETING1
   ══════════════════════════════════════════════════════════ */
   {
-    year:     2023,
+    year:     2023-1,
     title:    "MAD-AAG Annual Meeting '23 (1) with Race, Ethnicity and Place",
     theme:    "Mapping and Empowerment",
     status:   "past",
