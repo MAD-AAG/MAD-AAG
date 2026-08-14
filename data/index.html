@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Middle Atlantic Division – AAG</title>
+<meta name="description" content="Middle Atlantic Division of the American Association of Geographers — serving Maryland, Northern Virginia, and Washington, DC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!-- Data files — edit these to update the site content -->
+<script src="data/site.js"></script>
+<script src="data/meetings.js"></script>
+<script src="data/photos.js"></script>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════
+     HEADER & NAVIGATION
+════════════════════════════════════════════════════════ -->
+<header>
+  <div class="container header-inner">
+
+    <div class="site-logo" onclick="showPage('home')">
+      <div class="logo-badge">MAD</div>
+      <span>Middle Atlantic Division<br>
+        <small style="font-weight:400;font-size:.74rem;opacity:.65;">American Association of Geographers</small>
+      </span>
+    </div>
+
+    <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="main-nav">
+      <a class="nav-link" data-page="home"          onclick="showPage('home');return false;">Home</a>
+      <a class="nav-link" data-page="officers"       onclick="showPage('officers');return false;">Officers</a>
+      <a class="nav-link" data-page="membership"     onclick="showPage('membership');return false;">Membership</a>
+
+      <!-- Meetings dropdown -->
+      <div class="nav-dropdown">
+        <a class="nav-link" data-page="meetings" onclick="if(window.innerWidth>820){showPage('meetings');return false;}">Meetings</a>
+        <div class="dropdown-menu" id="meetings-dropdown">
+          <!-- Populated by app.js from meetings data -->
+        </div>
+      </div>
+
+      <a class="nav-link" data-page="announcements" onclick="showPage('announcements');return false;">Announcements</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: HOME
+════════════════════════════════════════════════════════ -->
+<div id="page-home" class="page">
+
+  <section class="home-hero">
+    <div class="container home-hero-content">
+      <p class="eyebrow">AAG Regional Division</p>
+      <h1>Middle Atlantic Division</h1>
+      <p class="lead">Connecting geographers across Maryland, Northern Virginia, and Washington, DC — advancing geographic research, education, and community.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" onclick="showPage('meetings');return false;">Annual Meeting →</a>
+        <a class="btn btn-outline" href="https://www.aag.org/membership/" target="_blank">Join AAG</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="facts-bar">
+    <div class="container facts-inner" id="home-facts"></div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="align-items:start;gap:56px;">
+
+        <div>
+          <p class="eyebrow">About MAD</p>
+          <h2>Geography is what we all have in common</h2>
+          <div class="divider"></div>
+          <p id="home-about" style="color:var(--muted);"></p>
+          <p style="margin-top:20px;">
+            <a class="btn btn-teal" href="https://www.aag.org/regional-division/middle-atlantic-division/" target="_blank">AAG Profile</a>
+            <a class="btn btn-ghost" style="margin-left:10px;" href="https://community.aag.org/communities/community-home?communitykey=2d830a49-06ea-468e-9f44-6bda5210aca8" target="_blank">Community Hub</a>
+          </p>
+        </div>
+
+        <div>
+          <p class="eyebrow">Latest News</p>
+          <h2>Updates &amp; Highlights</h2>
+          <div class="divider"></div>
+          <div id="home-news"></div>
+          <p style="margin-top:12px;"><a onclick="showPage('announcements');return false;" class="btn btn-ghost btn-sm">All Announcements →</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--sky">
+    <div class="container">
+      <p class="eyebrow">Upcoming</p>
+      <h2>Next Annual Meeting</h2>
+      <div class="divider"></div>
+      <div id="home-next-meeting"></div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section class="section section--navy">
+    <div class="container">
+      <div style="max-width:680px;margin:0 auto;text-align:center;">
+        <p class="eyebrow" style="color:var(--gold);">Get in Touch</p>
+        <h2 style="color:var(--white);margin-bottom:12px;">Contact Us</h2>
+        <div class="divider" style="margin:12px auto 24px;"></div>
+        <p style="color:rgba(255,255,255,.75);margin-bottom:32px;">Have questions about membership, meetings, or the division? We'd love to hear from you.</p>
+
+        <div class="contact-cards">
+
+          <a href="mailto:MADRD@communities.aag.org" class="contact-card">
+            <div class="contact-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+            </div>
+            <div class="contact-label">Email Us</div>
+            <div class="contact-value">MADRD@communities.aag.org</div>
+          </a>
+
+          <a href="https://www.linkedin.com/groups/13976898/" target="_blank" class="contact-card">
+            <div class="contact-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+              </svg>
+            </div>
+            <div class="contact-label">Follow on LinkedIn</div>
+            <div class="contact-value">MAD-AAG Group</div>
+          </a>
+
+          <a href="https://www.facebook.com/groups/MADAAG/" target="_blank" class="contact-card">
+            <div class="contact-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </div>
+            <div class="contact-label">Follow on Facebook</div>
+            <div class="contact-value">MAD-AAG Group</div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: OFFICERS
+════════════════════════════════════════════════════════ -->
+<div id="page-officers" class="page">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Leadership</p>
+      <h1>Division Officers</h1>
+      <div class="divider"></div>
+      <p class="lead">The MAD Executive Committee is elected by members and serves the geographic community across the region.</p>
+    </div>
+  </section>
+
+  <!-- Current officers -->
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Current Term</p>
+      <h2>2025–2027 Officers</h2>
+      <div class="divider"></div>
+      <div class="grid-3" id="officers-grid"></div>
+
+      <div style="margin-top:48px;background:var(--sky);border-radius:var(--radius);padding:28px 32px;">
+        <h3>Contact the Division</h3>
+        <p style="color:var(--muted);margin:8px 0 18px;">For general inquiries, reach the full leadership team at the division list address.</p>
+        <a class="btn btn-teal" href="mailto:MADRD@communities.aag.org">Email Division Leadership</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Past officers — collapsible -->
+  <section class="section section--alt" id="past-officers-section">
+    <div class="container">
+
+      <!-- Toggle header -->
+      <button class="past-officers-toggle" id="past-officers-toggle"
+              onclick="togglePastOfficers()" aria-expanded="false" aria-controls="past-officers-body">
+        <div class="past-officers-toggle-left">
+          <p class="eyebrow" style="margin:0;">History</p>
+          <h2 style="margin:4px 0 0;">Past Officers</h2>
+        </div>
+        <div class="announce-chevron" id="past-officers-chevron" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.5 6.75L9 11.25L13.5 6.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </button>
+
+      <!-- Collapsible body -->
+      <div id="past-officers-body" hidden>
+        <p style="color:var(--muted);margin:0 0 28px;">Select a term to view the officers who served during that period.</p>
+
+        <!-- Term tab pills -->
+        <div class="term-tabs" id="past-term-tabs"></div>
+
+        <!-- Term panels -->
+        <div id="past-term-panels"></div>
+      </div>
+
+    </div>
+  </section>
+
+</div><!-- /page-officers -->
+
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: MEMBERSHIP
+════════════════════════════════════════════════════════ -->
+<div id="page-membership" class="page">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Join Us</p>
+      <h1>Membership</h1>
+      <div class="divider"></div>
+      <p class="lead" id="membership-intro"></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="align-items:start;gap:56px;">
+
+        <div>
+          <p class="eyebrow">What You Get</p>
+          <h2>Member Benefits</h2>
+          <div class="divider"></div>
+          <div id="membership-benefits"></div>
+        </div>
+
+        <div>
+          <p class="eyebrow">Getting Started</p>
+          <h2>How to Join</h2>
+          <div class="divider"></div>
+          <ol style="padding-left:1.3em;line-height:2.1;color:var(--muted);">
+            <li>Visit <a href="https://www.aag.org/membership/" target="_blank">aag.org/membership</a> to join or renew AAG</li>
+            <li>Select the Middle Atlantic Division during registration (or update your regional preference in your profile)</li>
+            <li>You are automatically included in MAD mailing lists and communications</li>
+            <li>Attend the annual meeting — registration details are posted each fall</li>
+          </ol>
+          <p style="margin-top:24px;">
+            <a class="btn btn-primary" href="https://www.aag.org/membership/" target="_blank">Join AAG Now</a>
+          </p>
+
+          <div style="margin-top:32px;padding:24px;background:var(--sky);border-radius:var(--radius);">
+            <h4 style="margin-bottom:8px;">Already a member?</h4>
+            <p style="color:var(--muted);font-size:.9rem;margin-bottom:14px;">Access the MAD community, discussion boards, and resources through the AAG Community Hub.</p>
+            <a class="btn btn-ghost btn-sm" href="https://community.aag.org/communities/community-home?communitykey=2d830a49-06ea-468e-9f44-6bda5210aca8" target="_blank">Visit Community Hub</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-membership -->
+
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: MEETINGS (current / upcoming)
+════════════════════════════════════════════════════════ -->
+<div id="page-meetings" class="page">
+
+  <div class="meeting-hero">
+    <div class="container">
+      <p class="eyebrow">Annual Meeting</p>
+      <h1 id="mtg-hero-title"></h1>
+      <p class="meeting-theme" id="mtg-hero-theme"></p>
+      <div class="meeting-meta-row" id="mtg-hero-meta"></div>
+      <div class="meeting-actions" id="mtg-hero-actions"></div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="gap:48px;align-items:start;">
+
+        <div>
+          <p class="eyebrow">About the Meeting</p>
+          <h2>Details &amp; Information</h2>
+          <div class="divider"></div>
+          <div id="mtg-description"></div>
+        </div>
+
+        <div>
+          <p class="eyebrow">Schedule</p>
+          <h2>Program at a Glance</h2>
+          <div class="divider"></div>
+          <div id="mtg-schedule"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <p class="eyebrow">Gallery</p>
+      <h2>Meeting Photos</h2>
+      <div class="divider"></div>
+      <p style="color:var(--muted);font-size:.9rem;margin-bottom:24px;">
+        Add photos by placing image files in <code>photos/meetings/YEAR/</code> and updating <code>data/meetings.js</code>.
+      </p>
+      <div class="photo-grid" id="mtg-photos"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">History</p>
+      <h2>Past Annual Meetings</h2>
+      <div class="divider"></div>
+      <p style="color:var(--muted);font-size:.9rem;margin-bottom:28px;">Click any meeting to view its full archive page.</p>
+      <div id="mtg-past-list"></div>
+    </div>
+  </section>
+
+</div><!-- /page-meetings -->
+
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: MEETING DETAIL (archive)
+════════════════════════════════════════════════════════ -->
+<div id="page-meeting-detail" class="page">
+
+  <div class="archive-banner">
+    <div class="container">
+      <div class="back-link" onclick="showPage('meetings')">← Back to Meetings</div>
+      <p class="eyebrow" id="archive-year"></p>
+      <h1 id="archive-title"></h1>
+      <p class="meeting-theme" id="archive-theme"></p>
+      <div class="meeting-meta-row" id="archive-meta"></div>
+      <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap;" id="archive-links"></div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="gap:48px;align-items:start;">
+
+        <div>
+          <p class="eyebrow">About This Meeting</p>
+          <h2>Overview</h2>
+          <div class="divider"></div>
+          <div id="archive-description"></div>
+
+          <div style="margin-top:36px;">
+            <p class="eyebrow">Highlights</p>
+            <h2>Meeting Highlights</h2>
+            <div class="divider"></div>
+            <div id="archive-highlights"></div>
+          </div>
+        </div>
+
+        <div>
+          <p class="eyebrow">Program</p>
+          <h2>Schedule</h2>
+          <div class="divider"></div>
+          <div id="archive-schedule"></div>
+
+          <div style="margin-top:36px;">
+            <p class="eyebrow">Recognition</p>
+            <h2>Awards</h2>
+            <div class="divider"></div>
+            <div id="archive-awards"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <p class="eyebrow">Gallery</p>
+      <h2>Meeting Photos</h2>
+      <div class="divider"></div>
+      <div class="photo-grid" id="archive-photos"></div>
+    </div>
+  </section>
+
+  <div style="padding:32px 0;text-align:center;background:var(--sky);">
+    <a class="btn btn-ghost" onclick="showPage('meetings');return false;">← All Meetings</a>
+  </div>
+
+</div><!-- /page-meeting-detail -->
+
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: ANNOUNCEMENTS
+════════════════════════════════════════════════════════ -->
+<div id="page-announcements" class="page">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">News &amp; Updates</p>
+      <h1>Announcements</h1>
+      <div class="divider"></div>
+      <p class="lead">Stay up to date with division news, calls for papers, awards, and opportunities.</p>
+    </div>
+  </section>
+
+  <!-- Current announcements -->
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Recent</p>
+      <h2>Current Announcements</h2>
+      <div class="divider"></div>
+      <div style="max-width:760px;" id="announcements-list"></div>
+    </div>
+  </section>
+
+  <!-- Historical archive — collapsible -->
+  <section class="section section--alt">
+    <div class="container">
+      <button class="past-officers-toggle" id="archive-toggle"
+              onclick="toggleArchive()" aria-expanded="false" aria-controls="archive-body">
+        <div class="past-officers-toggle-left">
+          <p class="eyebrow" style="margin:0;">2010–2013</p>
+          <h2 style="margin:4px 0 0;">Historical Archive</h2>
+        </div>
+        <div class="announce-chevron" id="archive-chevron" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.5 6.75L9 11.25L13.5 6.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </button>
+
+      <div id="archive-body" hidden>
+        <p style="color:var(--muted);font-size:.9rem;margin:0 0 24px;">
+          Historical announcements preserved from the original MAD-AAG Google Site (2010–2013).
+        </p>
+        <div style="max-width:760px;" id="announcements-archive-list"></div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-announcements -->
+
+
+
+
+
+<!-- ═══════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <div class="footer-brand-name">Middle Atlantic Division</div>
+        <p>American Association of Geographers<br>
+          Serving <span id="footer-region"></span></p>
+        <p style="margin-top:10px;">
+          <a id="footer-aag-url" href="#" target="_blank"></a>
+        </p>
+        <p style="margin-top:12px;">
+          <a href="mailto:MADRD@communities.aag.org" style="color:rgba(255,255,255,.6);font-size:.85rem;">MADRD@communities.aag.org</a>
+        </p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><span onclick="showPage('home')">Home</span></li>
+          <li><span onclick="showPage('officers')">Officers</span></li>
+          <li><span onclick="showPage('membership')">Membership</span></li>
+          <li><span onclick="showPage('announcements')">Announcements</span></li>
+        </ul>
+        <h4 style="margin-top:18px;">Connect</h4>
+        <ul>
+          <li><a href="mailto:MADRD@communities.aag.org">✉ Email Us</a></li>
+          <li><a href="https://www.linkedin.com/groups/13976898/" target="_blank">🔗 LinkedIn Group</a></li>
+          <li><a href="https://www.facebook.com/groups/MADAAG/" target="_blank">📘 Facebook Group</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Meetings</h4>
+        <ul id="footer-meetings"></ul>
+        <h4 style="margin-top:18px;">AAG</h4>
+        <ul>
+          <li><a href="https://www.aag.org" target="_blank">AAG Website</a></li>
+          <li><a href="https://www.aag.org/membership/" target="_blank">Join AAG</a></li>
+          <li><a href="https://www.aag.org/community/#regional-divisions" target="_blank">All Divisions</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="footer-year"></span> Middle Atlantic Division, AAG. All rights reserved.</span>
+      <a href="mailto:MADRD@communities.aag.org">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+<!-- App engine — loads after data files -->
+<script src="app.js"></script>
+
+</body>
+</html>
