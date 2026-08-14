@@ -180,8 +180,27 @@ function renderMembership() {
 }
 
 /* ── RENDER: MEETINGS LIST ──────────────────────────────── */
+/* Helper: true MAD annual meetings only (year <= 9999), sorted newest first */
+function madMeetings() {
+  return (window.MEETINGS || [])
+    .filter(m => m.year <= 9999)
+    .sort((a, b) => b.year - a.year);
+}
+/* AAG GeoBowl entries (year > 9999), sorted newest first */
+function aagGeoBowls() {
+  return (window.MEETINGS || [])
+    .filter(m => m.year > 9999)
+    .sort((a, b) => b.year - a.year);
+}
+/* Friendly display label for special year values */
+function yearLabel(m) {
+  if (m.year === 20260) return 'AAG 2026';
+  if (m.year === 20250) return 'AAG 2025';
+  return String(m.year);
+}
+
 function renderMeetings() {
-  const meetings = (window.MEETINGS || []).sort((a,b) => b.year - a.year);
+  const meetings = madMeetings();
   const next = meetings.find(m => m.status === 'upcoming') || meetings[0];
   const past = meetings.filter(m => m.status === 'past');
 
@@ -217,16 +236,26 @@ function renderMeetings() {
   // Photos
   document.getElementById('mtg-photos').innerHTML = photoGridHTML(next.photos || [], next.year);
 
-  // Past meetings list
-  document.getElementById('mtg-past-list').innerHTML = past.map(m => `
+  // Past meetings list (MAD annual only)
+  const geobowls = aagGeoBowls();
+  const pastRows = m => `
     <div class="past-meeting-row">
-      <div class="past-year">${m.year}</div>
+      <div class="past-year">${yearLabel(m)}</div>
       <div class="past-info">
         <div class="past-title">${m.title}</div>
         ${m.location ? `<div class="past-loc">📍 ${m.location}</div>` : ''}
       </div>
       <a class="past-link" onclick="showPage('meeting-detail', {year:${m.year}});return false;">View Archive →</a>
-    </div>`).join('');
+    </div>`;
+
+  let pastHTML = past.map(pastRows).join('');
+
+  if (geobowls.length) {
+    pastHTML += '<div style="margin-top:32px;"><p class="eyebrow" style="margin-bottom:12px;">AAG GeoBowl (National)</p>'
+      + geobowls.map(pastRows).join('') + '</div>';
+  }
+
+  document.getElementById('mtg-past-list').innerHTML = pastHTML;
 }
 
 /* ── RENDER: MEETING DETAIL (archive) ──────────────────── */
@@ -234,7 +263,7 @@ function renderMeetingDetail(year) {
   const m = (window.MEETINGS || []).find(x => x.year == year);
   if (!m) { document.getElementById('meeting-detail-content').innerHTML = '<p>Meeting not found.</p>'; return; }
 
-  document.getElementById('archive-year').textContent  = m.year;
+  document.getElementById('archive-year').textContent  = yearLabel(m);
   document.getElementById('archive-title').textContent = m.title;
   document.getElementById('archive-theme').textContent = m.theme ? `"${m.theme}"` : '';
   document.getElementById('archive-meta').innerHTML = `
@@ -407,23 +436,48 @@ function renderNewsletter() {
 
 /* ── BUILD MEETINGS DROPDOWN ────────────────────────────── */
 function buildMeetingsDropdown() {
-  const meetings = (window.MEETINGS || []).sort((a,b) => b.year - a.year);
-  const upcoming = meetings.filter(m => m.status === 'upcoming');
-  const past     = meetings.filter(m => m.status === 'past');
+  const mad      = madMeetings();
+  const upcoming = mad.filter(m => m.status === 'upcoming');
+  const past     = mad.filter(m => m.status === 'past');
+  const geobowls = aagGeoBowls();
 
-  let html = '';
+  function ddLink(label, year, pageId) {
+    var onclick = pageId === 'meetings'
+      ? "showPage('meetings');return false;"
+      : "showPage('meeting-detail',{year:" + year + "});return false;";
+    return '<a onclick="' + onclick + '"><span class="dropdown-year">' + label + '</span> ' + pageId + '</a>';
+  }
+
+  function meetingLink(m, pageId) {
+    var onclick = pageId === 'meetings'
+      ? "showPage('meetings');return false;"
+      : "showPage('meeting-detail',{year:" + m.year + "});return false;";
+    return '<a onclick="' + onclick + '"><span class="dropdown-year">' + yearLabel(m) + '</span> ' + m.title + '</a>';
+  }
+
+  var html = '';
+
   if (upcoming.length) {
-    html += `<div class="dropdown-divider">Upcoming</div>`;
-    upcoming.forEach(m => {
-      html += `<a onclick="showPage('meetings');return false;"><span class="dropdown-year">${m.year}</span> ${m.title}</a>`;
+    html += '<div class="dropdown-divider">Upcoming</div>';
+    upcoming.forEach(function(m) {
+      html += meetingLink(m, 'meetings');
     });
   }
+
   if (past.length) {
-    html += `<div class="dropdown-divider">Past Meetings</div>`;
-    past.forEach(m => {
-      html += `<a onclick="showPage('meeting-detail',{year:${m.year}});return false;"><span class="dropdown-year">${m.year}</span> ${m.title}</a>`;
+    html += '<div class="dropdown-divider">Past Annual Meetings</div>';
+    past.forEach(function(m) {
+      html += meetingLink(m, 'meeting-detail');
     });
   }
+
+  if (geobowls.length) {
+    html += '<div class="dropdown-divider">AAG GeoBowl</div>';
+    geobowls.forEach(function(m) {
+      html += meetingLink(m, 'meeting-detail');
+    });
+  }
+
   document.getElementById('meetings-dropdown').innerHTML = html;
 }
 
@@ -435,7 +489,7 @@ function buildFooter() {
   document.getElementById('footer-aag-url').href      = S.aagUrl;
   document.getElementById('footer-aag-url').textContent = S.aagUrl.replace('https://', '');
 
-  const meetings = (window.MEETINGS || []).sort((a,b) => b.year - a.year).slice(0, 4);
+  const meetings = madMeetings().slice(0, 4);
   document.getElementById('footer-meetings').innerHTML = meetings.map(m =>
     `<li><span onclick="showPage('meeting-detail',{year:${m.year}})">${m.year} — ${m.title.slice(0,30)}${m.title.length > 30 ? '…' : ''}</span></li>`
   ).join('');
