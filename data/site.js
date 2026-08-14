@@ -24,7 +24,7 @@ window.SITE = {
     Geographers represents geographers and geography departments in Maryland,
     Northern Virginia, and Washington, DC. All AAG members who reside in this
     region are automatically members of this division. We host an annual
-    meeting and foster connections across the regional
+    meeting, publish a newsletter, and foster connections across the regional
     geographic community.`,
 
   facts: [
@@ -42,24 +42,6 @@ window.SITE = {
   officers: [
     {
       role:        "Chair",
-      name:        "Jeremy Tasch",
-      institution: "Towson University",
-      location:    "Towson, MD",
-      email:       "JTasch@Towson.edu",
-      photo:       "jeremy-tasch.jpg",
-      bio:         "Dr. Tasch represents MAD on the AAG Council and focuses on political geography."
-    },
-    {
-      role:        "Vice-Chair",
-      name:        "Wataru Morioka",
-      institution: "Salisbury University",
-      location:    "Salisbury, MD",
-      email:       "WXMORIOKA@salisbury.edu",
-      photo:       "wataru-morioka.jpg",
-      bio:         "Dr. Morioka's research focuses on space-time analytics and visual communication using GIScience."
-    },
-     {
-      role:        "Treasurer",
       name:        "Tracy Edwards",
       institution: "Frostburg State University",
       location:    "Frostburg, MD",
@@ -68,40 +50,40 @@ window.SITE = {
       bio:         "Dr. Edwards specializes in physical geography and environmental science. She has served MAD in various capacities since 2018."
     },
     {
+      role:        "Vice-Chair",
+      name:        "Michael Allen",
+      institution: "Towson University",
+      location:    "Towson, MD",
+      email:       "",
+      photo:       "michael-allen.jpg",
+      bio:         "Dr. Allen's research focuses on urban geography and GIS applications in the Mid-Atlantic region."
+    },
+    {
+      role:        "Treasurer",
+      name:        "Andrea Presotto",
+      institution: "Salisbury University",
+      location:    "Salisbury, MD",
+      email:       "",
+      photo:       "andrea-presotto.jpg",
+      bio:         "Dr. Presotto specializes in human geography and has managed division finances since 2022."
+    },
+    {
       role:        "Secretary",
-      name:        "Armita Kar",
-      institution: "George Mason University",
-      location:    "Fairfax, VA",
-      email:       "akar3@gmu.edu",
-      photo:       "armita-kar.jpg",
-      bio:         "Dr. Kar's work spans human mobility, spatial cognition, and environmental health."
+      name:        "Jaime Barrett",
+      institution: "University of Maryland, Baltimore County",
+      location:    "Catonsville, MD",
+      email:       "",
+      photo:       "jaime-barrett.jpg",
+      bio:         "Dr. Barrett's work spans cultural geography and geographic education."
     },
     {
       role:        "Regional Councilor",
-      name:        "Louie Kiskowski",
-      institution: "Maryland Historical Trust",
-      location:    "Crownsville, MD",
-      email:       "louiekiskowski@gmail.com",
-      photo:       "louie-kiskowski.png",
-      bio:         "Dr. Kiskowski focuses on human geography and the geography of Maryland."
-    },
-    {
-      role:        "GeoBowl Coordinator",
-      name:        "Christopher Elcik",
-      institution: "Salisbury University",
-      location:    "Salisbury, MD",
-      email:       "cjelcik@salisbury.edu",
-      photo:       "christopher-elcik.jpg",
-      bio:         ""
-    },
-    {
-      role:        "Student Board Representative",
-      name:        "Victor Irekponor",
-      institution: "University of Maryland",
-      location:    "Maryland, MD",
-      email:       "vireks@terpmail.umd.edu",
-      photo:       "victor-irekponor.jpeg",
-      bio:         ""
+      name:        "Jeremy Tasch",
+      institution: "Towson University",
+      location:    "Towson, MD",
+      email:       "",
+      photo:       "jeremy-tasch.jpg",
+      bio:         "Dr. Tasch represents MAD on the AAG Council and focuses on political geography."
     }
   ],
 
@@ -112,7 +94,7 @@ window.SITE = {
   ──────────────────────────────────────────────────────── */
   pastOfficers: [
     {
-      term: "2023–2026",
+      term: "2023–2025",
       officers: [
         { role: "Chair",             name: "John P. Harrington",   institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
         { role: "Vice-Chair",        name: "Tracy Edwards",         institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
@@ -122,13 +104,13 @@ window.SITE = {
       ]
     },
     {
-      term: "2020–2023",
+      term: "2021–2023",
       officers: [
-        { role: "Chair",             name: "Jeremy Tasch",     institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
-        { role: "Vice-Chair",        name: "Andrea Presotto",  institution: "Salisbury University",           location: "Salisbury, MD",    photo: "", bio: "" },
-        { role: "Treasurer",         name: "Tracy Edwards",    institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
-        { role: "Secretary",         name: "William Kiskowski",institution: "Maryland State Data Center",     location: "Baltimore, MD",    photo: "", bio: "" },
-        { role: "Regional Councilor",name: "Rebecca Kelly",    institution: "Johns Hopkins University",       location: "Baltimore, MD",    photo: "", bio: "" }
+        { role: "Chair",             name: "John P. Harrington",   institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
+        { role: "Vice-Chair",        name: "Tracy Edwards",         institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
+        { role: "Treasurer",         name: "Andrea Presotto",       institution: "Salisbury University",           location: "Salisbury, MD",    photo: "", bio: "" },
+        { role: "Secretary",         name: "Jaime Barrett",         institution: "Univ. of Maryland, BC",          location: "Catonsville, MD",  photo: "", bio: "" },
+        { role: "Regional Councilor",name: "Jeremy Tasch",          institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" }
       ]
     }
     /* ── ADD MORE TERMS ABOVE THIS LINE ──
@@ -155,6 +137,7 @@ window.SITE = {
 
   membershipBenefits: [
     { icon: "🗺️", title: "Annual Meeting",        text: "Attend and present at our regional conference with keynotes, panels, field trips, and networking." },
+    { icon: "📰", title: "Division Newsletter",    text: "Receive timely updates on regional events, funding opportunities, and member achievements." },
     { icon: "🤝", title: "Professional Network",  text: "Connect with geographers at universities, government agencies, and private-sector firms across the region." },
     { icon: "🏆", title: "Awards & Recognition",  text: "Eligible for division awards recognizing outstanding research, teaching, and service." },
     { icon: "📢", title: "Voice in Governance",   text: "Vote in officer elections and help shape the division's direction." },
@@ -181,37 +164,46 @@ window.SITE = {
    */
   announcements: [
     {
-      type:  "",
-      date:  "July 2026",
-      title: "Save the Date: MAD 2026 @ Harford Community College",
-      body:  `We are pleased to invite colleagues and students to the 2026 MAD‑AAG Annual Meeting, hosted this year at Harford Community College, November 20, 2026. Our gathering continues MAD's long tradition of fostering geographic scholarship, regional collaboration, and student engagement across Maryland, Delaware, Northern Virginia, and Washington, DC.
-
-              This year's program features two distinguished keynote speakers whose work reflects the breadth and vitality of our discipline.
-              
-              • Jen Chadwick‑Moore, GIS Professional at the Maryland Historical Trust and Maryland's Representative to the U.S. Board on Geographic Names, will deliver the Morning Keynote.
-              • William "Bill" Moseley, Professor at Macalester College and Past President of the AAG (2025–2026), will offer the Afternoon Lunchtime Keynote.
-
-              We look forward to a day of shared inquiry, thoughtful conversation, GEOBOWL Competition, and the continued strengthening of our regional MAD community. We hope you will join us-and encourage your students and colleagues to participate-in what will be an engaging and collegial meeting. Hosting the meeting at Harford Community College extends MAD's ongoing effort-advanced last year through Anne Arundel Community College-to reach the institutions, colleagues, and students on whom the discipline's continued vibrancy depends.
-              
-              Registration, abstract submission, and student best research competition submissions all open on August 17th.`,
+      type:  "info",
+      date:  "June 2026",
+      title: "Save the Date: MAD 2026 Annual Meeting",
+      body:  `The 2026 Annual Meeting is planned for Fall 2026. We are currently finalizing the host institution and theme.
+              Details on location, registration, and the call for papers will be announced by late summer.
+              All AAG members in the Mid-Atlantic region are welcome to attend and submit abstracts.
+              Watch this page for updates, or join the AAG Community Hub for real-time notifications.`,
       link:      "",
       linkLabel: "View Meeting Page"
     },
     {
       type:  "",
-      date:  "July 2026",
+      date:  "May 2026",
       title: "Officer Election Results",
-      body:  `The 2026-2029 MAD officer elections have concluded. The following individuals have been newly appointed to the board.
-      
-              • Chair: Jeremy Tasch
-              • Vice Chair: Wataru Morioka
-              • Secretary/Webmaster: Armita Kar
-              • Treasurer: Tracy Edwards
-              • Regional Councilor: Louie Kiskowski
-              • Geography Bowl Coordinator: Christopher Elcik
-              • Student Representative (2026): Victor Irekponor
-              
+      body:  `The 2026 MAD officer elections have concluded. Congratulations to all newly elected officers —
+              results were announced to the full membership list in May.
+              Newly elected officers will begin their terms at the close of the 2026 Annual Meeting.
               Thank you to all candidates and members who participated in the democratic process that keeps our division strong.`
+    },
+    {
+      type:  "info",
+      date:  "March 2026",
+      title: "Geography Awareness Week — Call for Ideas",
+      body:  `Geography Awareness Week takes place each November. Members are encouraged to plan local events —
+              public lectures, map exhibitions, K-12 school visits, or social media campaigns — to celebrate
+              and promote the discipline in their communities.
+              If you are organizing an event, please share your plans with the Secretary so we can help publicize them
+              through the division newsletter and social channels.`
+    },
+    {
+      type:  "",
+      date:  "January 2026",
+      title: "AAG Annual Meeting — MAD Member Participation",
+      body:  `Many MAD members will be presenting research at the AAG Annual Meeting this spring.
+              Look out for the MAD informal networking dinner — we gather each year to connect with
+              regional colleagues in person during the conference.
+              Details on the dinner location and RSVP will be posted to the AAG Community Hub approximately
+              three weeks before the meeting. Check the hub or contact any officer for information.`,
+      link:      "https://community.aag.org/communities/community-home?communitykey=2d830a49-06ea-468e-9f44-6bda5210aca8",
+      linkLabel: "Visit Community Hub"
     }
     /* ── ADD NEW ANNOUNCEMENTS ABOVE THIS LINE ── */
   ],

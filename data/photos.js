@@ -128,7 +128,7 @@ window.PHOTOS = {
     },
 
     /* AAG Annual Meeting GeoBowl photos (separate from MAD annual meeting) */
-    aag2025: {
+    20250: {
       "aag2025_bowl_01.jpg": "photos/meetings/aag2025/aag2025_bowl_01.jpg",
       "aag2025_bowl_02.jpg": "photos/meetings/aag2025/aag2025_bowl_02.jpg",
       "aag2025_bowl_03.jpg": "photos/meetings/aag2025/aag2025_bowl_03.jpg",
@@ -140,7 +140,7 @@ window.PHOTOS = {
       "aag2025_bowl_09.jpg": "photos/meetings/aag2025/aag2025_bowl_09.jpg"
     },
 
-    aag2026: {
+    20260: {
       "aag2026_bowl_01.jpg": "photos/meetings/aag2026/aag2026_bowl_01.jpg",
       "aag2026_bowl_02.jpg": "photos/meetings/aag2026/aag2026_bowl_02.jpg",
       "aag2026_bowl_03.jpg": "photos/meetings/aag2026/aag2026_bowl_03.jpg",
