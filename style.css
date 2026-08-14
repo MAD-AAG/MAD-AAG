@@ -487,6 +487,37 @@ nav { display: flex; align-items: center; gap: 2px; }
 }
 .back-link:hover { color: var(--gold); text-decoration: none; }
 
+/* ── CONTACT CARDS (home page) ──────────────────────────── */
+.contact-cards {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+  margin-top: 8px;
+}
+@media (max-width: 640px) { .contact-cards { grid-template-columns: 1fr; } }
+
+.contact-card {
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+  padding: 28px 20px; border-radius: var(--radius);
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.14);
+  color: var(--white); text-align: center;
+  transition: background var(--transition), transform var(--transition), border-color var(--transition);
+  cursor: pointer;
+}
+.contact-card:hover {
+  background: rgba(255,255,255,.13); border-color: var(--gold);
+  transform: translateY(-3px); text-decoration: none; color: var(--white);
+}
+.contact-icon {
+  width: 52px; height: 52px; border-radius: 50%;
+  background: rgba(200,144,44,.2); border: 1px solid rgba(200,144,44,.4);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--gold);
+}
+.contact-label {
+  font-family: var(--ff-label); font-weight: 700; font-size: .82rem;
+  text-transform: uppercase; letter-spacing: .08em; color: var(--gold);
+}
+.contact-value { font-size: .88rem; color: rgba(255,255,255,.78); word-break: break-all; }
+
 /* ── FOOTER ─────────────────────────────────────────────── */
 footer { background: #111820; color: rgba(255,255,255,.62); padding: 52px 0 28px; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 36px; }

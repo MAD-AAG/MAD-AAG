@@ -16,43 +16,30 @@ window.MEETINGS = [
     year:     2026,
     title:    "MAD-AAG Annual Meeting '26",
     theme:    "Geography at the Crossroads: People, Place, Policy",
-    status:   "upcoming",          /* "upcoming" | "past" */
+    status:   "upcoming",
     date:     "November 20, 2026",
-    dateISO:  "2026-11-20",        /* e.g. "2026-11-13" once confirmed */
+    dateISO:  "2026-11-20",
     location: "Harford Community College, Bel Air, MD",
     venue:    "",
     host:     "",
-    cfpLink:  "",                  /* URL to call-for-papers form */
-    regLink:  "",                  /* URL to registration */
-    programLink: "",               /* URL to full program PDF */
-    keynote:  "",                  /* Keynote speaker name */
-
+    cfpLink:  "",
+    regLink:  "",
+    programLink: "",
+    keynote:  "",
     description: `The Middle Atlantic Division Annual Meeting brings together
       geographers from across Maryland, Northern Virginia, and Washington, DC
       for a full day of paper sessions, keynote lectures, and collegial exchange.
       We welcome contributions from all geographic subdisciplines and career
       stages, including students from high school to graduate level.`,
-
     schedule: [
-      { time: "8:00 AM",   event: "Registration" },
-      { time: "9:00 AM",   event: "Opening Remarks & Keynote" },
-      { time: "12:00 PM",  event: "Lunch & Networking" },
-      { time: "4:00 PM",   event: "GeoBowl" }
+      { time: "8:00 AM",  event: "Registration" },
+      { time: "9:00 AM",  event: "Opening Remarks & Keynote" },
+      { time: "12:00 PM", event: "Lunch & Networking" },
+      { time: "4:00 PM",  event: "GeoBowl" }
     ],
-
-    /* Photos: set src to filename inside photos/meetings/YEAR/ folder.
-       Set placeholder: false once you add a real image. */
-    photos: [
-      { src: "", caption: "Keynote session",       placeholder: true, tall: true  },
-      { src: "", caption: "Morning registration",   placeholder: true, tall: false },
-      { src: "", caption: "Panel discussion",       placeholder: true, tall: false },
-      { src: "", caption: "Poster presentations",   placeholder: true, tall: false },
-      { src: "", caption: "Award ceremony",         placeholder: true, tall: false },
-      { src: "", caption: "Closing reception",      placeholder: true, tall: false }
-    ],
-
-    highlights: [],   /* Short bullet strings e.g. "Best Paper Award: Jane Doe, UMD" */
-    awards: []        /* { award: "Best Paper", recipient: "Jane Doe", institution: "UMD" } */
+    photos: [],
+    highlights: [],
+    awards: []
   },
 
   /* ══════════════════════════════════════════════════════════
@@ -72,11 +59,9 @@ window.MEETINGS = [
     regLink:  "",
     programLink: "",
     keynote:  "",
-
     description: `MAD 2025 explored the rich geographic diversity stretching from
       the Appalachian highlands to the Atlantic coastal plain — examining how
       landscape, culture, economy, and policy intersect across this storied corridor.`,
-
     schedule: [
       { time: "8:00 AM",  event: "Registration" },
       { time: "9:00 AM",  event: "Opening & Paper Session A" },
@@ -85,24 +70,25 @@ window.MEETINGS = [
       { time: "1:45 PM",  event: "Paper Sessions B" },
       { time: "3:30 PM",  event: "Geography Bowl" }
     ],
-
     photos: [
-      { src: "", caption: "Keynote address",       placeholder: true, tall: true  },
-      { src: "", caption: "Paper presentations",   placeholder: true, tall: false },
-      { src: "", caption: "Networking lunch",      placeholder: true, tall: false },
-      { src: "", caption: "Award recipients",      placeholder: true, tall: false }
+      { src: "2025_general_01.jpg", caption: "Session presenters",    placeholder: false, tall: true  },
+      { src: "2025_general_02.jpg", caption: "Kent State reunion",     placeholder: false, tall: false },
+      { src: "2025_general_03.jpg", caption: "Meeting highlights",     placeholder: false, tall: false },
+      { src: "2025_general_04.jpg", caption: "Attendees",              placeholder: false, tall: false },
+      { src: "2025_general_05.jpg", caption: "Paper session A",        placeholder: false, tall: false },
+      { src: "2025_bowl_01.jpg",    caption: "Geography Bowl",         placeholder: false, tall: false },
+      { src: "2025_bowl_02.jpg",    caption: "Bowl competitors",       placeholder: false, tall: false },
+      { src: "2025_bowl_03.jpg",    caption: "Bowl action",            placeholder: false, tall: false }
     ],
-
     highlights: [
       "Record attendance from across the tri-state region.",
       "Keynotes exploring how to build the next generation of geographers.",
       "Spoiler team won the regional geography bowl."
     ],
-
     awards: [
-      { award: "AAG Council Award (Graduate) Tied", recipient: "Maxwell Gundling", institution: "Salisbury University" } ,
-      { award: "AAG Council Award (Graduate) Tied", recipient: "Haijun Li", institution: "University of Maryland, College Park" } ,
-      { award: "MAGMA", recipient: "Maya Clark", institution: "Towson University" }
+      { award: "AAG Council Award (Graduate) — Tied", recipient: "Maxwell Gundling",  institution: "Salisbury University" },
+      { award: "AAG Council Award (Graduate) — Tied", recipient: "Haijun Li",          institution: "University of Maryland, College Park" },
+      { award: "MAGMA Award",                          recipient: "Maya Clark",          institution: "Towson University" }
     ]
   },
 
@@ -123,34 +109,34 @@ window.MEETINGS = [
     regLink:  "",
     programLink: "",
     keynote:  "",
-
     description: `The 2024 meeting centered on geography's relevance and impact
       across policy, education, and community — affirming that where we are
       shapes who we are and what we can become.`,
-
     schedule: [],
-
     photos: [
-      { src: "", caption: "Opening session",     placeholder: true, tall: true  },
-      { src: "", caption: "Presentations",       placeholder: true, tall: false },
-      { src: "", caption: "Group discussion",    placeholder: true, tall: false },
-      { src: "", caption: "Closing reception",   placeholder: true, tall: false }
+      { src: "2024_general_01.jpg", caption: "Meeting overview",       placeholder: false, tall: true  },
+      { src: "2024_general_02.jpg", caption: "Presentations",          placeholder: false, tall: false },
+      { src: "2024_general_03.jpg", caption: "Attendees",              placeholder: false, tall: false },
+      { src: "2024_general_04.jpg", caption: "Discussions",            placeholder: false, tall: false },
+      { src: "2024_bowl_01.jpg",    caption: "Geography Bowl",         placeholder: false, tall: false },
+      { src: "2024_bowl_02.jpg",    caption: "Bowl competitors",       placeholder: false, tall: false },
+      { src: "2024_bowl_03.jpg",    caption: "Bowl action",            placeholder: false, tall: false },
+      { src: "2024_bowl_04.jpg",    caption: "Bowl team",              placeholder: false, tall: false }
     ],
-
     highlights: [],
     awards: []
   },
-  
+
   /* ══════════════════════════════════════════════════════════
-     2023 MEETING2
+     2023 MEETING (with Pennsylvania Geographic Society)
   ══════════════════════════════════════════════════════════ */
   {
-    year:     2023-2,
-    title:    "MAD-AAG Annual Meeting '23 (2) with Pennsylvania Geographic Society",
+    year:     2023,
+    title:    "MAD-AAG Annual Meeting '23 — Joint with Pennsylvania Geographic Society",
     theme:    "",
     status:   "past",
     date:     "November 3, 2023",
-    dateISO:  "2023-11-3",
+    dateISO:  "2023-11-03",
     location: "Salisbury University, Salisbury, MD",
     venue:    "",
     host:     "",
@@ -158,34 +144,17 @@ window.MEETINGS = [
     regLink:  "",
     programLink: "https://thepgs.org/2023-Annual-Meeting",
     keynote:  "",
-    description: ``,
+    description: `A joint meeting with the Pennsylvania Geographic Society held
+      at Salisbury University, bringing together geographers from across the region.`,
     schedule: [],
-    photos: [],
-    highlights: [],
-    awards: []
-  },
-  
-  /* ══════════════════════════════════════════════════════════
-     2023 MEETING1
-  ══════════════════════════════════════════════════════════ */
-  {
-    year:     2023-1,
-    title:    "MAD-AAG Annual Meeting '23 (1) with Race, Ethnicity and Place",
-    theme:    "Mapping and Empowerment",
-    status:   "past",
-    date:     "October 11–14, 2023",
-    dateISO:  "2023-10-11",
-    location: "George Washington University, Washington, DC",
-    venue:    "",
-    host:     "",
-    cfpLink:  "https://www.aag.org/events/2023-middle-atlantic-regional-division-meeting/",
-    regLink:  "",
-    programLink: "",
-    keynote:  "",
-    description: `The 2023 annual meeting brought together the MAD community for
-      three days of presentations, discussions, and networking.`,
-    schedule: [],
-    photos: [],
+    photos: [
+      { src: "2023_bowl_01.jpg", caption: "Geography Bowl",          placeholder: false, tall: true  },
+      { src: "2023_bowl_02.jpg", caption: "Bowl teams",              placeholder: false, tall: false },
+      { src: "2023_bowl_03.jpg", caption: "Competitors",             placeholder: false, tall: false },
+      { src: "2023_bowl_04.jpg", caption: "Bowl action",             placeholder: false, tall: false },
+      { src: "2023_bowl_05.jpg", caption: "Bowl presentations",      placeholder: false, tall: false },
+      { src: "2023_bowl_06.jpg", caption: "Bowl highlights",         placeholder: false, tall: false }
+    ],
     highlights: [],
     awards: []
   },
@@ -211,21 +180,136 @@ window.MEETINGS = [
       themes of urban resilience, community recovery, and reinventing geographic
       practice in a changed world.`,
     schedule: [],
+    photos: [],
+    highlights: [],
+    awards: []
+  },
+
+  /* ══════════════════════════════════════════════════════════
+     2019 MEETING
+  ══════════════════════════════════════════════════════════ */
+  {
+    year:     2019,
+    title:    "MAD-AAG Annual Meeting '19",
+    theme:    "",
+    status:   "past",
+    date:     "2019",
+    dateISO:  "2019-01-01",
+    location: "Mid-Atlantic Region",
+    venue:    "",
+    host:     "",
+    cfpLink:  "",
+    regLink:  "",
+    programLink: "",
+    keynote:  "",
+    description: `The 2019 annual meeting of the Middle Atlantic Division brought
+      together geographers for a day of paper sessions, networking, and the
+      annual Geography Bowl competition.`,
+    schedule: [],
     photos: [
-      { src: "", caption: "Opening keynote",   placeholder: true, tall: true  },
-      { src: "", caption: "Sessions",          placeholder: true, tall: false },
-      { src: "", caption: "Networking",        placeholder: true, tall: false }
+      { src: "2019_general_01.jpg", caption: "Meeting session",        placeholder: false, tall: true  },
+      { src: "2019_general_02.jpg", caption: "Presenters",             placeholder: false, tall: false },
+      { src: "2019_general_03.jpg", caption: "Attendees",              placeholder: false, tall: false },
+      { src: "2019_general_04.jpg", caption: "Group discussion",       placeholder: false, tall: false },
+      { src: "2019_general_05.jpg", caption: "Paper session",          placeholder: false, tall: false },
+      { src: "2019_general_06.jpg", caption: "Networking",             placeholder: false, tall: false },
+      { src: "2019_general_07.jpg", caption: "Presentations",          placeholder: false, tall: false },
+      { src: "2019_general_08.jpg", caption: "Meeting highlights",     placeholder: false, tall: false }
+    ],
+    highlights: [],
+    awards: []
+  },
+
+  /* ══════════════════════════════════════════════════════════
+     2016 MEETING (Geography Bowl photos)
+  ══════════════════════════════════════════════════════════ */
+  {
+    year:     2016,
+    title:    "MAD-AAG Annual Meeting '16",
+    theme:    "",
+    status:   "past",
+    date:     "2016",
+    dateISO:  "2016-01-01",
+    location: "Mid-Atlantic Region",
+    venue:    "",
+    host:     "",
+    cfpLink:  "",
+    regLink:  "",
+    programLink: "",
+    keynote:  "",
+    description: `The 2016 annual meeting featured the Geography Bowl competition
+      among undergraduate and graduate students from across the region.`,
+    schedule: [],
+    photos: [
+      { src: "2016_bowl_01.jpg", caption: "Geography Bowl 2016",    placeholder: false, tall: true  },
+      { src: "2016_bowl_02.jpg", caption: "Bowl competitors",       placeholder: false, tall: false },
+      { src: "2016_bowl_03.jpg", caption: "Bowl action",            placeholder: false, tall: false },
+      { src: "2016_bowl_04.jpg", caption: "Bowl participants",      placeholder: false, tall: false }
     ],
     highlights: [],
     awards: []
   }
+
+
+  /* ══════════════════════════════════════════════════════════
+     AAG 2026 GEOGRAPHY BOWL (AAG Annual Meeting)
+     Note: This is the national AAG GeoBowl, separate from
+     the MAD annual meeting.
+  ══════════════════════════════════════════════════════════ */
+  {
+    year:     "aag2026",
+    title:    "AAG 2026 Geography Bowl",
+    theme:    "MAD Team at the AAG Annual Meeting",
+    status:   "past",
+    date:     "2026",
+    dateISO:  "2026-01-01",
+    location: "AAG Annual Meeting",
+    venue:    "", host: "", cfpLink: "", regLink: "", programLink: "", keynote: "",
+    description: `MAD students represented the region at the national AAG Geography Bowl competition.`,
+    schedule: [],
+    photos: [
+      { src: "aag2026_bowl_01.jpg", caption: "AAG GeoBowl 2026",  placeholder: false, tall: true  },
+      { src: "aag2026_bowl_02.jpg", caption: "MAD team",          placeholder: false, tall: false },
+      { src: "aag2026_bowl_03.jpg", caption: "Bowl action",        placeholder: false, tall: false },
+      { src: "aag2026_bowl_04.jpg", caption: "Competitors",        placeholder: false, tall: false },
+      { src: "aag2026_bowl_05.jpg", caption: "Competition",        placeholder: false, tall: false },
+      { src: "aag2026_bowl_06.jpg", caption: "Bowl highlights",    placeholder: false, tall: false },
+      { src: "aag2026_bowl_07.jpg", caption: "Team celebration",   placeholder: false, tall: false }
+    ],
+    highlights: [], awards: []
+  },
+
+  /* ══════════════════════════════════════════════════════════
+     AAG 2025 GEOGRAPHY BOWL (AAG Annual Meeting)
+  ══════════════════════════════════════════════════════════ */
+  {
+    year:     "aag2025",
+    title:    "AAG 2025 Geography Bowl",
+    theme:    "MAD Team at the AAG Annual Meeting",
+    status:   "past",
+    date:     "2025",
+    dateISO:  "2025-01-01",
+    location: "AAG Annual Meeting",
+    venue:    "", host: "", cfpLink: "", regLink: "", programLink: "", keynote: "",
+    description: `MAD students represented the region at the national AAG Geography Bowl competition.`,
+    schedule: [],
+    photos: [
+      { src: "aag2025_bowl_01.jpg", caption: "AAG GeoBowl 2025",  placeholder: false, tall: true  },
+      { src: "aag2025_bowl_02.jpg", caption: "MAD team",          placeholder: false, tall: false },
+      { src: "aag2025_bowl_03.jpg", caption: "Bowl action",        placeholder: false, tall: false },
+      { src: "aag2025_bowl_04.jpg", caption: "Competitors",        placeholder: false, tall: false },
+      { src: "aag2025_bowl_05.jpg", caption: "Competition",        placeholder: false, tall: false },
+      { src: "aag2025_bowl_06.jpg", caption: "Bowl highlights",    placeholder: false, tall: false }
+    ],
+    highlights: [], awards: []
+  },
 
   /* ══════════════════════════════════════════════════════════
      📋  TEMPLATE — Copy & paste above to add a new meeting
   ══════════════════════════════════════════════════════════
   {
     year:     2027,
-    title:    "MAD 2027 Annual Meeting",
+    title:    "MAD-AAG Annual Meeting '27",
     theme:    "Your Theme Here",
     status:   "upcoming",
     date:     "Fall 2027 — Date TBA",
@@ -243,8 +327,8 @@ window.MEETINGS = [
       { time: "9:00 AM", event: "Keynote" }
     ],
     photos: [
-      { src: "photo1.jpg", caption: "Caption", placeholder: false, tall: true },
-      { src: "",           caption: "Caption", placeholder: true,  tall: false }
+      { src: "2027_general_01.jpg", caption: "Caption", placeholder: false, tall: true },
+      { src: "",                     caption: "Caption", placeholder: true,  tall: false }
     ],
     highlights: ["Highlight 1", "Highlight 2"],
     awards: [
