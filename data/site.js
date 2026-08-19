@@ -183,21 +183,21 @@ window.SITE = {
     {
       type:  "",
       date:  "August 2026",
-      title: "MAD 2026 Meeting Registration Open",
-      body:  `Hosted by Harford Community College on November 20 (9:00 - 6:30), MAD invites the entire community to attend and welcomes two keynote speakers: Bill Moseley, AAG President 2025-2026, and Jen Chadwick-Moore, Maryland Historical Trust and US Board on Geographic Names. 
+      title: "MAD 2026 Meeting Registration Now Open",
+      body:  `Hosted by Harford Community College on November 20 (9:00 a.m. - 6:30 p.m.), MAD invites the entire community to attend and welcomes two keynote speakers: Bill Moseley, AAG President 2025-2026, and Jen Chadwick-Moore, Maryland Historical Trust and US Board on Geographic Names. 
               
               MAD's Annual Meeting is an excellent opportunity to present research, receive feedback, hear from others in the MAD region, and renew and develop regional contacts.
 
-              • Full Time Faculty/Professional - $60.00
+              • Full-Time Faculty/Professional - $60.00
               • Part-Time Faculty/Professional - $40.00
               • Retired/Emeritus - $40.00
               • Student - $30.00
               • Voluntary contribution_________
 
-              For students, MAD offers two research award opportunities: the MAGMA ($250) and the AAG Regional Best Paper ($1000) Awards. Additionally, students are invited to join the GeoBowl Competition. This is a fun opportunity to interact with other regional students and to earn a chance to receive support to participate in the National GeoBowl in NYC. 
-              And although MAD encourages membership in the AAG, this is not required to participate in the annual meeting. As always, please feel comfortable to reply with questions and comments.
+              For students, MAD offers two research award opportunities: the MAGMA ($250) and the AAG Regional Best Paper ($1000) Awards. For details, see the attached file. Additionally, students are invited to join the GeoBowl Competition. This is a fun opportunity to interact with other regional students and to earn a chance to receive support to participate in the National GeoBowl in NYC. 
+              Although MAD encourages membership in the AAG, membership is not required to participate in the annual meeting. As always, please feel free to reply with questions and comments.
 
-              Thank you everyone.`,
+              Thank you, everyone.`,
       link:      "https://www.aag.org/events/middle-atlantic-regional-division-2026/",
       linkLabel: "View Meeting Page"
     },
