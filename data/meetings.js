@@ -17,7 +17,7 @@ window.MEETINGS = [
     location:    "Harford Community College, Bel Air, MD",
     venue:       "",
     host:        "",
-    cfpLink:     "",
+    cfpLink:     "https://www.aag.org/events/middle-atlantic-regional-division-2026/",
     regLink:     "",
     programLink: "",
     keynote:     "",
