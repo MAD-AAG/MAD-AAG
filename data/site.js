@@ -183,8 +183,8 @@ window.SITE = {
     {
       type:  "",
       date:  "August 2026",
-      title: "MAD 2026 Meeting Registration Now Open",
-      body:  `Hosted by Harford Community College on November 20 (9:00 a.m. - 6:30 p.m.), MAD invites the entire community to attend and welcomes two keynote speakers: Bill Moseley, AAG President 2025-2026, and Jen Chadwick-Moore, Maryland Historical Trust and US Board on Geographic Names. 
+      title: "Registration Open for MAD-AAG 2026",
+      legacyBody:  `Hosted by Harford Community College on November 20 (9:00 a.m. - 6:30 p.m.), MAD invites the entire community to attend and welcomes two keynote speakers: Bill Moseley, AAG President 2025-2026, and Jen Chadwick-Moore, Maryland Historical Trust and US Board on Geographic Names. 
               
               MAD's Annual Meeting is an excellent opportunity to present research, receive feedback, hear from others in the MAD region, and renew and develop regional contacts.
 
@@ -198,8 +198,13 @@ window.SITE = {
               Although MAD encourages membership in the AAG, membership is not required to participate in the annual meeting. As always, please feel free to reply with questions and comments.
 
               Thank you, everyone.`,
+      body:  `Registration is now open for the 2026 Middle Atlantic Division of the American Association of Geographers Annual Meeting.
+
+              Join MAD-AAG on Friday, November 20, 2026, at Harford Community College in Bel Air, Maryland, for a one-day regional meeting bringing together students, faculty, educators, GIS professionals, and geography stakeholders across the Middle Atlantic region.
+
+              Please share with students, departments, colleagues, and regional geography/GIS networks.`,
       link:      "https://www.aag.org/events/middle-atlantic-regional-division-2026/",
-      linkLabel: "View Meeting Page"
+      linkLabel: "Register via AAG"
     },
     {
       type:  "",
