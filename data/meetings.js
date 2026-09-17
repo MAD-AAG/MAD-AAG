@@ -121,7 +121,10 @@ window.MEETINGS = [
       { src: "2024_bowl_04.jpg",    caption: "Bowl team",          placeholder: false, tall: false }
     ],
     highlights: [],
-    awards:     []
+    awards:     [
+      {award: "AAG Council Award (Graduate)", recipient: "George Dickerson",  institution: "Towson University"},
+      {award: "AAG Council Award (Undergaduate)", recipient: "Rebecca Lee",  institution: "Frostburg State University"}
+    ]
   },
 
   /* ----- 2023 MEETING (joint with Pennsylvania Geographic Society) ----- */
@@ -172,7 +175,35 @@ window.MEETINGS = [
     schedule:    [],
     photos:      [],
     highlights:  [],
-    awards:      []
+    awards:      [
+      {award: "AAG Council Award (Graduate) - Tied", recipient: "Xueyuan Eric Gao",  institution: "University of Maryland, College Park"},
+      {award: "AAG Council Award (Graduate) - Tied", recipient: "Lauren Gerlowski",  institution: "University of Wisconsin, Madison"}
+    ]
+  },
+
+  /* ----- 2021 MEETING ----- */
+  {
+    year:        2021,
+    title:       "MAD-AAG Annual Meeting '21",
+    theme:       "Justice and the City in an Age of Social Division",
+    status:      "past",
+    date:        "October 20-23, 2021",
+    dateISO:     "2021-10-20",
+    location:    "Hotel Indigo & Maryland Cultural and Historical Center, Baltimore, MD",
+    venue:       "",
+    host:        "",
+    cfpLink:     "",
+    regLink:     "",
+    programLink: "",
+    keynote:     "",
+    description: "There were 32 paper and panel sessions of hybrid in-person and virtual presentations by mixed groups of faculty, professionals, and students.",
+    schedule:    [],
+    photos:      [],
+    highlights:  [],
+    awards:      [
+      {award: "AAG Council Award (Graduate) - Tied", recipient: "Xueyuan Eric Gao",  institution: "University of Maryland, College Park"},
+      {award: "AAG Council Award (Graduate) - Tied", recipient: "Lauren Gerlowski",  institution: "University of Wisconsin, Madison"}
+    ]
   },
 
   /* ----- 2019 MEETING ----- */
