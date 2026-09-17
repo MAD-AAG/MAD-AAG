@@ -9,7 +9,7 @@ window.MEETINGS = [
   /* ----- 2026 MEETING (UPCOMING) ----- */
   {
     year:        2026,
-    title:       "Middle Atlantic Regional Division 2026",
+    title:       "MAD-AAG Annual Meeting '26",
     theme:       "Connect. Collaborate. Shape Our World.",
     status:      "upcoming",
     date:        "November 20, 2026",
