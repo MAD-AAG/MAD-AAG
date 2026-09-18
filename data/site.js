@@ -95,7 +95,7 @@ window.SITE = {
       bio:         ""
     },
     {
-      role:        "Student Board Representative",
+      role:        "Student Representative",
       name:        "Victor Irekponor",
       institution: "University of Maryland",
       location:    "Maryland, MD",
@@ -114,23 +114,51 @@ window.SITE = {
     {
       term: "2023–2026",
       officers: [
-        { role: "Chair",             name: "John P. Harrington",   institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
-        { role: "Vice-Chair",        name: "Tracy Edwards",         institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
-        { role: "Treasurer",         name: "Andrea Presotto",       institution: "Salisbury University",           location: "Salisbury, MD",    photo: "", bio: "" },
-        { role: "Secretary",         name: "Jaime Barrett",         institution: "Univ. of Maryland, BC",          location: "Catonsville, MD",  photo: "", bio: "" },
+        { role: "Chair",             name: "Tracy Edwards",         institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
+        { role: "Vice-Chair",        name: "Mike Allen*",           institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
+        { role: "Treasurer",         name: "Andrea Presotto*",      institution: "Salisbury University",           location: "Salisbury, MD",    photo: "", bio: "" },
         { role: "Regional Councilor",name: "Jeremy Tasch",          institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" }
       ]
     },
     {
       term: "2020–2023",
       officers: [
-        { role: "Chair",             name: "Jeremy Tasch",     institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
-        { role: "Vice-Chair",        name: "Andrea Presotto",  institution: "Salisbury University",           location: "Salisbury, MD",    photo: "", bio: "" },
-        { role: "Treasurer",         name: "Tracy Edwards",    institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
-        { role: "Secretary",         name: "William Kiskowski",institution: "Maryland State Data Center",     location: "Baltimore, MD",    photo: "", bio: "" },
-        { role: "Regional Councilor",name: "Rebecca Kelly",    institution: "Johns Hopkins University",       location: "Baltimore, MD",    photo: "", bio: "" }
+        { role: "Chair",             name: "Jeremy Tasch",         institution: "Towson University",                            location: "Towson, MD",       photo: "", bio: "" },
+        { role: "Vice-Chair",        name: "Andrea Presotto",      institution: "Salisbury University",                         location: "Salisbury, MD",    photo: "", bio: "" },
+        { role: "Treasurer",         name: "Jaime Barrett*",       institution: "University of Maryland, Baltimore County",     location: "Frostburg, MD",    photo: "", bio: "" },
+        { role: "Secretary",         name: "William Kiskowski",    institution: "Maryland State Data Center",                   location: "Baltimore, MD",    photo: "", bio: "" },
+        { role: "Regional Councilor",name: "Tracy Edwards",        institution: "Frostburg State University",     　            location: "Frostburg, MD",    photo: "", bio: "" },
+        { role: "Student Representative",name: "Olivia Ward*",     institution: "Towson University",                            location: "Towson, MD",       photo: "", bio: "" }
       ]
-    }
+    },
+    {
+      term: "2017–2020",
+      officers: [
+        { role: "Chair",             name: "Michael Ratcliffe",   institution: "US Census Bureau",                       location: "Washington, DC",    photo: "", bio: "" },
+        { role: "Vice-Chair",        name: "Martha Geores",       institution: "University of Maryland, College Park",   location: "College Park, MD",       photo: "", bio: "" },
+        { role: "Treasurer",         name: "Kelly O’Neal",        institution: "University of Maryland, College Park",   location: "College Park, MD",    photo: "", bio: "" },
+        { role: "Secretary",         name: "Jeremy Tasch",        institution: "Towson University",                      location: "Towson, MD",       photo: "", bio: "" },
+        { role: "Regional Councilor",name: "Rebecca Kelly",       institution: "Johns Hopkins University",               location: "Baltimore, MD",    photo: "", bio: "" }
+      ]
+    },
+    {
+      term: "2014–2017",
+      officers: [
+        { role: "Chair",             name: "Tracy Edwards",      institution: "Frostburg State University",     　      location: "Frostburg, MD",     photo: "", bio: "" },
+        { role: "Vice-Chair",        name: "Karen DeLong*",      institution: "Montgomery College",                     location: "Rockville, MD",     photo: "", bio: "" },
+        { role: "Treasurer",         name: "Michael Ratcliffe",  institution: "US Census Bureau",                       location: "Washington, DC",    photo: "", bio: "" },
+        { role: "Regional Councilor",name: "Jeremy Tasch",       institution: "Towson University",                      location: "Towson, MD",        photo: "", bio: "" }
+      ]
+    },
+    {
+      term: "2011–2014",
+      officers: [
+        { role: "Chair",             name: "Martha Geores",      institution: "University of Maryland, College Park",   location: "College Park, MD",  photo: "", bio: "" },
+        { role: "Vice-Chair",        name: "Tracy Edwards",      institution: "Frostburg State University",     　      location: "Frostburg, MD",     photo: "", bio: "" },
+        { role: "Treasurer",         name: "Karen DeLong",       institution: "Montgomery College",                     location: "Rockville, MD",     photo: "", bio: "" },
+        { role: "Secretary",         name: "Alex Aguilar",       institution: "Salisbury University",                   location: "Salisbury, MD",     photo: "", bio: "" }
+      ]
+    },
     /* ── ADD MORE TERMS ABOVE THIS LINE ──
        Copy this block as a template:
 
