@@ -73,13 +73,7 @@ window.MEETINGS = [
       { src: "2025_general_05.jpg",  caption: "Paper session A",       placeholder: false, tall: false },
       { src: "2025_bowl_01.jpg",     caption: "Geography Bowl",        placeholder: false, tall: false },
       { src: "2025_bowl_02.jpg",     caption: "Bowl competitors",      placeholder: false, tall: false },
-      { src: "2025_bowl_03.jpg",     caption: "Bowl action",           placeholder: false, tall: false },
-      { src: "aag2025_bowl_01.jpg",  caption: "AAG GeoBowl 2025",     placeholder: false, tall: false },
-      { src: "aag2025_bowl_02.jpg",  caption: "AAG Bowl - MAD team",  placeholder: false, tall: false },
-      { src: "aag2025_bowl_03.jpg",  caption: "AAG Bowl action",       placeholder: false, tall: false },
-      { src: "aag2025_bowl_04.jpg",  caption: "AAG Bowl competitors",  placeholder: false, tall: false },
-      { src: "aag2025_bowl_05.jpg",  caption: "AAG Bowl competition",  placeholder: false, tall: false },
-      { src: "aag2025_bowl_06.jpg",  caption: "AAG Bowl highlights",   placeholder: false, tall: false }
+      { src: "2025_bowl_03.jpg",     caption: "Bowl action",           placeholder: false, tall: false }
     ],
     highlights: [
       "Emphasis on multidisciplinary approaches to geography’s challenges.",
@@ -110,7 +104,14 @@ window.MEETINGS = [
     programLink: "",
     keynote:     "",
     description: "Dr. Nicole Nguyen provided the keynote discussing the geographies of the U.S. security state and punitive psychiatry.",
-    schedule:    [],
+    schedule:    [
+      { time: "8:00 AM",  event: "Registration" },
+      { time: "9:00 AM",  event: "Opening & Keynote" },
+      { time: "10:30 AM", event: "Concurrent Sessions A & B" },
+      { time: "12:15 PM", event: "Lunch & Business Meeting" },
+      { time: "1:30 PM",  event: "Concurrent Sessions C & D" },
+      { time: "3:30 PM",  event: "Geography Bowl" }
+    ],
     photos: [
       { src: "2024_general_01.jpg", caption: "Meeting overview",   placeholder: false, tall: true  },
       { src: "2024_general_02.jpg", caption: "Presentations",      placeholder: false, tall: false },
