@@ -90,7 +90,7 @@ window.MEETINGS = [
     awards: [
       { award: "AAG Council Award (Graduate) - Tied", recipient: "Maxwell Gundling", institution: "Salisbury University" },
       { award: "AAG Council Award (Graduate) - Tied", recipient: "Haijun Li",         institution: "University of Maryland, College Park" },
-      { award: "MAGMA Award",                          recipient: "Maya Clark",         institution: "Towson University" }
+      { award: "MAGMA Award",                         recipient: "Maya Clark",         institution: "Towson University" }
     ]
   },
 
@@ -128,26 +128,26 @@ window.MEETINGS = [
     ],
     awards:     [
       {award: "AAG Council Award (Graduate)", recipient: "George Dickerson",  institution: "Towson University"},
-      {award: "AAG Council Award (Undergaduate)", recipient: "Rebecca Lee",  institution: "Frostburg State University"}
+      {award: "AAG Council Award (Undergraduate)", recipient: "Rebecca Lee",  institution: "Frostburg State University"}
     ]
   },
 
-  /* ----- 2023 MEETING (joint with Pennsylvania Geographic Society) ----- */
+  /* ----- 2023 MEETINGS ----- */
   {
     year:        2023,
-    title:       "MAD-AAG Annual Meeting '23 - Joint with Pennsylvania Geographic Society",
-    theme:       "",
+    title:       "MAD-AAG Annual Meetings '23",
+    theme:       "Mapping and Empowerment",
     status:      "past",
-    date:        "November 3, 2023",
+    date:        "October 11-13 & November 3, 2023",
     dateISO:     "2023-11-03",
-    location:    "Salisbury University, Salisbury, MD",
+    location:    "George Washington University, DC & Salisbury University, Salisbury, MD",
     venue:       "",
     host:        "",
     cfpLink:     "",
     regLink:     "",
     programLink: "https://thepgs.org/2023-Annual-Meeting",
     keynote:     "",
-    description: "A joint meeting with the Pennsylvania Geographic Society held at Salisbury University, bringing together geographers from across the region.",
+    description: "In 2023, MAD hosted the joint meetings twice. The first was with the Race, Ethnicity, and Place at George Washington University and the second was with the Pennsylvania Geographic Society held at Salisbury University, bringing together geographers from across the region.",
     schedule:    [],
     photos: [
       { src: "2023_bowl_01.jpg", caption: "Geography Bowl",      placeholder: false, tall: true  },
@@ -157,7 +157,9 @@ window.MEETINGS = [
       { src: "2023_bowl_05.jpg", caption: "Bowl presentations",  placeholder: false, tall: false },
       { src: "2023_bowl_06.jpg", caption: "Bowl highlights",     placeholder: false, tall: false }
     ],
-    highlights: [],
+    highlights: ["In REP-MAD 2023, keynote speakers were Dayna Bowen Matthew and Mark Lopez.",
+                 "In PGS-MAD 2023, a career workshop and Geography Bowl event were held."
+],
     awards:     []
   },
 
@@ -205,10 +207,7 @@ window.MEETINGS = [
     schedule:    [],
     photos:      [],
     highlights:  [],
-    awards:      [
-      {award: "AAG Council Award (Graduate) - Tied", recipient: "Xueyuan Eric Gao",  institution: "University of Maryland, College Park"},
-      {award: "AAG Council Award (Graduate) - Tied", recipient: "Lauren Gerlowski",  institution: "University of Wisconsin, Madison"}
-    ]
+    awards:      []
   },
 
   /* ----- 2019 MEETING ----- */
