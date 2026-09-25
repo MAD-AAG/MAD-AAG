@@ -84,7 +84,8 @@ window.MEETINGS = [
     highlights: [
       "Emphasis on multidisciplinary approaches to geography’s challenges.",
       "Calls for greater inclusion of community colleges in professional associations.",
-      "Focus on environmental justice, public engagement, and innovative research methods."
+      "Focus on environmental justice, public engagement, and innovative research methods.",
+      "The Spoiler Team took first place in the Geography Bowl."
     ],
     awards: [
       { award: "AAG Council Award (Graduate) - Tied", recipient: "Maxwell Gundling", institution: "Salisbury University" },
@@ -108,7 +109,7 @@ window.MEETINGS = [
     regLink:     "",
     programLink: "",
     keynote:     "",
-    description: "The 2024 meeting centered on geography's relevance and impact across policy, education, and community, affirming that where we are shapes who we are and what we can become.",
+    description: "Dr. Nicole Nguyen provided the keynote discussing the geographies of the U.S. security state and punitive psychiatry.",
     schedule:    [],
     photos: [
       { src: "2024_general_01.jpg", caption: "Meeting overview",   placeholder: false, tall: true  },
@@ -120,7 +121,11 @@ window.MEETINGS = [
       { src: "2024_bowl_03.jpg",    caption: "Bowl action",        placeholder: false, tall: false },
       { src: "2024_bowl_04.jpg",    caption: "Bowl team",          placeholder: false, tall: false }
     ],
-    highlights: [],
+    highlights: [
+                "Geography is positioned as a multidisciplinary tool for addressing global challenges, fostering justice, and supporting sustainable development.",
+                "The meeting emphasizes collaboration, community engagement, and the integration of diverse perspectives (gender, race, neurodiversity, urban/rural, global/local).",
+                "Salisbury University took first place in the Geography Bowl."
+    ],
     awards:     [
       {award: "AAG Council Award (Graduate)", recipient: "George Dickerson",  institution: "Towson University"},
       {award: "AAG Council Award (Undergaduate)", recipient: "Rebecca Lee",  institution: "Frostburg State University"}
