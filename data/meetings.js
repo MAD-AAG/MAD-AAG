@@ -29,13 +29,13 @@ window.MEETINGS = [
       { time: "4:00 PM",  event: "GeoBowl" }
     ],
     photos: [
-      { src: "aag2026_bowl_01.jpg", caption: "AAG GeoBowl 2026",  placeholder: false, tall: true  },
-      { src: "aag2026_bowl_02.jpg", caption: "MAD team",           placeholder: false, tall: false },
-      { src: "aag2026_bowl_03.jpg", caption: "Bowl action",         placeholder: false, tall: false },
-      { src: "aag2026_bowl_04.jpg", caption: "Competitors",         placeholder: false, tall: false },
-      { src: "aag2026_bowl_05.jpg", caption: "Competition",         placeholder: false, tall: false },
-      { src: "aag2026_bowl_06.jpg", caption: "Bowl highlights",     placeholder: false, tall: false },
-      { src: "aag2026_bowl_07.jpg", caption: "Team celebration",    placeholder: false, tall: false }
+      { src: "", caption: "",    placeholder: false, tall: false },
+      { src: "", caption: "",    placeholder: false, tall: false },
+      { src: "", caption: "",    placeholder: false, tall: false },
+      { src: "", caption: "",    placeholder: false, tall: false },
+      { src: "", caption: "",    placeholder: false, tall: false },
+      { src: "", caption: "",    placeholder: false, tall: false },
+      { src: "", caption: "",    placeholder: false, tall: false }
     ],
     highlights: [],
     awards:     []
