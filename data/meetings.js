@@ -56,7 +56,7 @@ window.MEETINGS = [
     regLink:     "",
     programLink: "",
     keynote:     "",
-    description: "MAD 2025 explored the rich geographic diversity stretching from the Appalachian highlands to the Atlantic coastal plain, examining how landscape, culture, economy, and policy intersect across this storied corridor.",
+    description: "Two keynotes were provided. Todd Heinrich (Towson University) discussed strategies to build future geographers through K-12 curriculum improvements. Gary Langham (AAG Executive Director) addressed challenges in geography, including budget cuts, research shifts, and opportunities for resilience and innovation.",
     schedule: [
       { time: "8:00 AM",  event: "Registration" },
       { time: "9:00 AM",  event: "Opening & Paper Session A" },
@@ -82,9 +82,9 @@ window.MEETINGS = [
       { src: "aag2025_bowl_06.jpg",  caption: "AAG Bowl highlights",   placeholder: false, tall: false }
     ],
     highlights: [
-      "Record attendance from across the tri-state region.",
-      "Keynotes exploring how to build the next generation of geographers.",
-      "Spoiler team won the regional geography bowl."
+      "Emphasis on multidisciplinary approaches to geography’s challenges.",
+      "Calls for greater inclusion of community colleges in professional associations.",
+      "Focus on environmental justice, public engagement, and innovative research methods."
     ],
     awards: [
       { award: "AAG Council Award (Graduate) - Tied", recipient: "Maxwell Gundling", institution: "Salisbury University" },
