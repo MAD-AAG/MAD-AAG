@@ -28,15 +28,7 @@ window.MEETINGS = [
       { time: "12:00 PM", event: "Lunch & Networking" },
       { time: "4:00 PM",  event: "GeoBowl" }
     ],
-    photos: [
-      { src: "", caption: "",    placeholder: false, tall: false },
-      { src: "", caption: "",    placeholder: false, tall: false },
-      { src: "", caption: "",    placeholder: false, tall: false },
-      { src: "", caption: "",    placeholder: false, tall: false },
-      { src: "", caption: "",    placeholder: false, tall: false },
-      { src: "", caption: "",    placeholder: false, tall: false },
-      { src: "", caption: "",    placeholder: false, tall: false }
-    ],
+    photos: [],
     highlights: [],
     awards:     []
   },
