@@ -282,7 +282,7 @@ window.MEETINGS = [
     awards:     [
       {award: "AAG Council Award (Graduate)", recipient: "Kelly J. Anderson",  institution: "University of Maryland, College Park"},
     ]
-  },
+  }
 
   /* ----- 2016 MEETING -----
   {
