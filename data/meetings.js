@@ -284,34 +284,6 @@ window.MEETINGS = [
     ]
   }
 
-  /* ----- 2016 MEETING -----
-   *{
-   * year:        2016,
-   * title:       "MAD-AAG Annual Meeting '16",
-   * theme:       "",
-   * status:      "past",
-   * date:        "2016",
-   * dateISO:     "2016-01-01",
-   * location:    "Mid-Atlantic Region",
-   * venue:       "",
-   * host:        "",
-   * cfpLink:     "",
-   * regLink:     "",
-   * programLink: "",
-   * keynote:     "",
-   * description: "The 2016 annual meeting featured the Geography Bowl competition among undergraduate and graduate students from across the region.",
-   * schedule:    [],
-   * photos: [
-   *  { src: "2016_bowl_01.jpg", caption: "Geography Bowl 2016", placeholder: false, tall: true  },
-   *  { src: "2016_bowl_02.jpg", caption: "Bowl competitors",    placeholder: false, tall: false },
-   *  { src: "2016_bowl_03.jpg", caption: "Bowl action",         placeholder: false, tall: false },
-   *  { src: "2016_bowl_04.jpg", caption: "Bowl participants",   placeholder: false, tall: false }
-   * ],
-   * highlights: [],
-   * awards:     []
-   * }
-   */
-
   /*
    * TEMPLATE - copy this block and paste above to add a new meeting
    *
