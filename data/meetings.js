@@ -172,9 +172,19 @@ window.MEETINGS = [
     programLink: "",
     keynote:     "",
     description: "Post-pandemic geography took center stage as MAD members explored themes of urban resilience, community recovery, and reinventing geographic practice in a changed world.",
-    schedule:    [],
+    schedule:    [
+      { time: "9:00 AM",   event: "Registration" },
+      { time: "10:00 AM",  event: "Opening & Keynote" },
+      { time: "11:00 AM",  event: "Presentations 1" },
+      { time: "1:00 PM",   event: "Lunch" },
+      { time: "2:00 PM",   event: "Presentations 2" },
+      { time: "4:00 PM",   event: "Business Matters" }
+    ],
     photos:      [],
-    highlights:  [],
+    highlights:  [
+      "The keynote speaker was Rebecca Lave, AAG Vice President, who delivered the opening presentation titled “Critical Interdisciplinarity in Geography.”,
+      "Several presentations highlighted Covid‑19’s impacts revealing how geographic perspectives help interpret social, economic, and educational shifts during crises."
+    ],
     awards:      [
       {award: "AAG Council Award (Graduate) - Tied", recipient: "Xueyuan Eric Gao",  institution: "University of Maryland, College Park"},
       {award: "AAG Council Award (Graduate) - Tied", recipient: "Lauren Gerlowski",  institution: "University of Wisconsin, Madison"}
@@ -196,10 +206,38 @@ window.MEETINGS = [
     regLink:     "",
     programLink: "",
     keynote:     "",
-    description: "There were 32 paper and panel sessions of hybrid in-person and virtual presentations by mixed groups of faculty, professionals, and students.",
+    description: "MAD hosted the conference with the Race, Ethnicity, and Place. There were 32 paper and panel sessions of hybrid in-person and virtual presentations by mixed groups of faculty, professionals, and students.",
     schedule:    [],
     photos:      [],
-    highlights:  [],
+    highlights:  [
+      "The welcome notes emphasize that the conference theme foregrounds Justice, Equity, Diversity, and Inclusion.",
+      "The organizers highlight opportunities to engage with Baltimore’s neighborhoods, including sessions focused on local histories of segregation and urban change."
+    ],
+    awards:      []
+  },
+
+    /* ----- 2020 MEETING ----- */
+  {
+    year:        2020,
+    title:       "MAD-AAG Annual Meeting '20",
+    theme:       "",
+    status:      "past",
+    date:        "October 21-23, 2020",
+    dateISO:     "2020-10-21",
+    location:    "Virtual",
+    venue:       "",
+    host:        "",
+    cfpLink:     "",
+    regLink:     "",
+    programLink: "",
+    keynote:     "",
+    description: "The conference was held virtually on October 21–23, 2020, in collaboration with the Race, Ethnicity and Place, focusing on the coronavirus pandemic and vulnerable populations alongside social justice themes.",
+    schedule:    [],
+    photos:      [],
+    highlights:  [
+      "Attracted 155 registered participants (61 students and 94 non-students) across 19 paper/panel sessions and three evening plenary sessions hosted via Zoom.",
+      "Included a keynote interview with Dr. Leana Wen on COVID-19 and vulnerable populations, as well as a Baltimore-focused plenary featuring the film "By Any Means Necessary: Story of Survival" by the Arch Social Club."
+    ],
     awards:      []
   },
 
@@ -207,19 +245,26 @@ window.MEETINGS = [
   {
     year:        2019,
     title:       "MAD-AAG Annual Meeting '19",
-    theme:       "",
+    theme:       "Passages, Movements, and Interactions",
     status:      "past",
-    date:        "2019",
-    dateISO:     "2019-01-01",
-    location:    "Mid-Atlantic Region",
+    date:        "November 19, 2019",
+    dateISO:     "2019-11-19",
+    location:    "United States Geological Survey, Catonsville, MD",
     venue:       "",
     host:        "",
     cfpLink:     "",
     regLink:     "",
     programLink: "",
     keynote:     "",
-    description: "The 2019 annual meeting of the Middle Atlantic Division brought together geographers for a day of paper sessions, networking, and the annual Geography Bowl competition.",
-    schedule:    [],
+    description: "The meeting centered on “Passages, Movements, and Interactions”, exploring geographic change, mobility, environmental dynamics, and cultural perspectives.",
+    schedule:    [
+      { time: "9:00 AM",   event: "Welcome & Announcements" },
+      { time: "9:15 AM",   event: "Papers 1: Visualizing	Landuse	in	Diverse	Contexts"},
+      { time: "11:00 AM",  event: "Papers 2: Diverse Perspectives on Geographic Diversity"},
+      { time: "12:00 PM",  event: "Lunch & Business Meeting" },
+      { time: "1:30 PM",   event: "Papers 3: Can I live Here?	Place issues with Socio-Economic-Physical Perspecpevtives"},
+      { time: "3:45 PM",   event: "Career Workshop" }
+    ],
     photos: [
       { src: "2019_general_01.jpg", caption: "Meeting session",    placeholder: false, tall: true  },
       { src: "2019_general_02.jpg", caption: "Presenters",         placeholder: false, tall: false },
@@ -230,11 +275,16 @@ window.MEETINGS = [
       { src: "2019_general_07.jpg", caption: "Presentations",      placeholder: false, tall: false },
       { src: "2019_general_08.jpg", caption: "Meeting highlights", placeholder: false, tall: false }
     ],
-    highlights: [],
-    awards:     []
+    highlights: [
+            "Featured keynote by David Kaplan and hands‑on engagement through workshops.",
+            "Geography Bowl was held at UMBC in the evening."
+                ],
+    awards:     [
+      {award: "AAG Council Award (Graduate)", recipient: "Kelly J. Anderson",  institution: "University of Maryland, College Park"},
+    ]
   },
 
-  /* ----- 2016 MEETING ----- */
+  /* ----- 2016 MEETING -----
   {
     year:        2016,
     title:       "MAD-AAG Annual Meeting '16",
@@ -259,7 +309,7 @@ window.MEETINGS = [
     ],
     highlights: [],
     awards:     []
-  }
+  }*/
 
   /*
    * TEMPLATE - copy this block and paste above to add a new meeting
