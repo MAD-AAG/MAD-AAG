@@ -280,7 +280,7 @@ window.MEETINGS = [
             "Geography Bowl was held at UMBC in the evening."
                 ],
     awards:     [
-      {award: "AAG Council Award (Graduate)", recipient: "Kelly J. Anderson",  institution: "University of Maryland, College Park"},
+      {award: "AAG Council Award (Graduate)", recipient: "Kelly J. Anderson",  institution: "University of Maryland, College Park"}
     ]
   }
 
