@@ -236,7 +236,7 @@ window.MEETINGS = [
     photos:      [],
     highlights:  [
       "Attracted 155 registered participants (61 students and 94 non-students) across 19 paper/panel sessions and three evening plenary sessions hosted via Zoom.",
-      "Included a keynote interview with Dr. Leana Wen on COVID-19 and vulnerable populations, as well as a Baltimore-focused plenary featuring the film "By Any Means Necessary: Story of Survival" by the Arch Social Club."
+      "Included a keynote interview with Dr. Leana Wen on COVID-19 and vulnerable populations, as well as a Baltimore-focused plenary featuring the film By Any Means Necessary: Story of Survival by the Arch Social Club."
     ],
     awards:      []
   },
@@ -256,14 +256,14 @@ window.MEETINGS = [
     regLink:     "",
     programLink: "",
     keynote:     "",
-    description: "The meeting centered on “Passages, Movements, and Interactions”, exploring geographic change, mobility, environmental dynamics, and cultural perspectives.",
+    description: "The meeting centered on Passages, Movements, and Interactions, exploring geographic change, mobility, environmental dynamics, and cultural perspectives.",
     schedule:    [
-      { time: "9:00 AM",   event: "Welcome & Announcements" },
+      { time: "9:00 AM",   event: "Welcome & Announcements"},
       { time: "9:15 AM",   event: "Papers 1: Visualizing	Landuse	in	Diverse	Contexts"},
       { time: "11:00 AM",  event: "Papers 2: Diverse Perspectives on Geographic Diversity"},
       { time: "12:00 PM",  event: "Lunch & Business Meeting" },
       { time: "1:30 PM",   event: "Papers 3: Can I live Here?	Place issues with Socio-Economic-Physical Perspecpevtives"},
-      { time: "3:45 PM",   event: "Career Workshop" }
+      { time: "3:45 PM",   event: "Career Workshop"}
     ],
     photos: [
       { src: "2019_general_01.jpg", caption: "Meeting session",    placeholder: false, tall: true  },
@@ -285,32 +285,32 @@ window.MEETINGS = [
   }
 
   /* ----- 2016 MEETING -----
-  *{
-    *year:        2016,
-    *title:       "MAD-AAG Annual Meeting '16",
-    *theme:       "",
-    *status:      "past",
-    *date:        "2016",
-    *dateISO:     "2016-01-01",
-    *location:    "Mid-Atlantic Region",
-    *venue:       "",
-    *host:        "",
-    *cfpLink:     "",
-    *regLink:     "",
-    *programLink: "",
-    *keynote:     "",
-    *description: "The 2016 annual meeting featured the Geography Bowl competition among undergraduate and graduate students from across the region.",
-    *schedule:    [],
-    *photos: [
-      *{ src: "2016_bowl_01.jpg", caption: "Geography Bowl 2016", placeholder: false, tall: true  },
-      *{ src: "2016_bowl_02.jpg", caption: "Bowl competitors",    placeholder: false, tall: false },
-      *{ src: "2016_bowl_03.jpg", caption: "Bowl action",         placeholder: false, tall: false },
-      *{ src: "2016_bowl_04.jpg", caption: "Bowl participants",   placeholder: false, tall: false }
-    *],
-    *highlights: [],
-    *awards:     []
-  *}
-  */
+   *{
+   * year:        2016,
+   * title:       "MAD-AAG Annual Meeting '16",
+   * theme:       "",
+   * status:      "past",
+   * date:        "2016",
+   * dateISO:     "2016-01-01",
+   * location:    "Mid-Atlantic Region",
+   * venue:       "",
+   * host:        "",
+   * cfpLink:     "",
+   * regLink:     "",
+   * programLink: "",
+   * keynote:     "",
+   * description: "The 2016 annual meeting featured the Geography Bowl competition among undergraduate and graduate students from across the region.",
+   * schedule:    [],
+   * photos: [
+   *  { src: "2016_bowl_01.jpg", caption: "Geography Bowl 2016", placeholder: false, tall: true  },
+   *  { src: "2016_bowl_02.jpg", caption: "Bowl competitors",    placeholder: false, tall: false },
+   *  { src: "2016_bowl_03.jpg", caption: "Bowl action",         placeholder: false, tall: false },
+   *  { src: "2016_bowl_04.jpg", caption: "Bowl participants",   placeholder: false, tall: false }
+   * ],
+   * highlights: [],
+   * awards:     []
+   * }
+   */
 
   /*
    * TEMPLATE - copy this block and paste above to add a new meeting
