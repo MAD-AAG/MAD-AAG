@@ -182,8 +182,8 @@ window.MEETINGS = [
     ],
     photos:      [],
     highlights:  [
-      "The keynote speaker was Rebecca Lave, AAG Vice President, who delivered the opening presentation titled “Critical Interdisciplinarity in Geography.”,
-      "Several presentations highlighted Covid‑19’s impacts revealing how geographic perspectives help interpret social, economic, and educational shifts during crises."
+      "The keynote speaker was Rebecca Lave, AAG Vice President, who delivered the opening presentation titled Critical Interdisciplinarity in Geography.",
+      "Several presentations highlighted COVID-19’s impacts, revealing how geographic perspectives help interpret social, economic, and educational shifts during crises."
     ],
     awards:      [
       {award: "AAG Council Award (Graduate) - Tied", recipient: "Xueyuan Eric Gao",  institution: "University of Maryland, College Park"},
