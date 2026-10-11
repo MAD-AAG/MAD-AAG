@@ -77,6 +77,7 @@ window.PHOTOS = {
     },
 
     2023: {
+      "2023_poster.jpg":   "photos/meetings/2023/2023_poster.jpg",
       "2023_bowl_01.jpg":  "photos/meetings/2023/2023_bowl_01.jpg",
       "2023_bowl_02.jpg":  "photos/meetings/2023/2023_bowl_02.jpg",
       "2023_bowl_03.jpg":  "photos/meetings/2023/2023_bowl_03.jpg",

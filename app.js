@@ -228,7 +228,8 @@ function renderMeetingDetail(year) {
     m.cfpLink     ? '<a class="btn btn-ghost btn-sm"   href="' + m.cfpLink     + '" target="_blank">Original CFP</a>' : ''
   ].filter(Boolean).join('');
 
-  document.getElementById('archive-description').innerHTML = '<p style="color:var(--muted);">' + (m.description || '') + '</p>';
+  document.getElementById('archive-description').innerHTML = '<p style="color:var(--muted);">' + (m.description || '') + '</p>'
+  + (m.poster ? '<img src="' + m.poster + '" alt="Meeting poster" style="margin-top:20px;max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,.15);">' : '');
 
   document.getElementById('archive-highlights').innerHTML = (m.highlights || []).length
     ? '<ul class="highlights-list">' + m.highlights.map(function(h) { return '<li>' + h + '</li>'; }).join('') + '</ul>'
