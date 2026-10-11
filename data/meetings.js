@@ -142,10 +142,10 @@ window.MEETINGS = [
     keynote:     "",
     description: "In 2023, MAD hosted the joint meetings twice. The first was with the Race, Ethnicity, and Place at George Washington University and the second was with the Pennsylvania Geographic Society held at Salisbury University, bringing together geographers from across the region.",
     schedule:    [
-      { time: "Program schedule", event: "https://github.com/MAD-AAG/MAD-AAG/blob/main/photos/meetings/2023/REP-MAD_2023_Program.pdf" }
+      { time: "Schedule", event: '<a href="photos/meetings/2023/REP-MAD_2023_Program.pdf">Link to Program</a>' }
     ],
     photos: [
-      { src: "REP-MAD-2023-Poster.jpeg", caption: "Program poster",   placeholder: false, tall: true  },
+      { src: "REP_MAD_2023_Poster.jpg", caption: "Program poster",   placeholder: false, tall: true  },
       { src: "2023_bowl_01.jpg", caption: "Geography Bowl",      placeholder: false, tall: true  },
       { src: "2023_bowl_02.jpg", caption: "Bowl teams",          placeholder: false, tall: false },
       { src: "2023_bowl_03.jpg", caption: "Competitors",         placeholder: false, tall: false },
@@ -154,7 +154,7 @@ window.MEETINGS = [
       { src: "2023_bowl_06.jpg", caption: "Bowl highlights",     placeholder: false, tall: false }
     ],
     highlights: ["In REP-MAD 2023, keynote speakers were Dayna Bowen Matthew and Mark Lopez.",
-                 "In PGS-MAD 2023, a career workshop and Geography Bowl event were held."
+                 "In PGS-MAD 2023, a career workshop and Geography Bowl event were held.",
 ],
     awards:     []
   },
