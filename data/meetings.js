@@ -141,7 +141,10 @@ window.MEETINGS = [
     programLink: "https://thepgs.org/2023-Annual-Meeting",
     keynote:     "",
     description: "In 2023, MAD hosted the joint meetings twice. The first was with the Race, Ethnicity, and Place at George Washington University and the second was with the Pennsylvania Geographic Society held at Salisbury University, bringing together geographers from across the region.",
-    schedule:    [],
+    schedule:    [
+      { src: "REP-MAD-2023-Poster.jpeg", caption: "Meeting schedule",   placeholder: false, tall: true  },
+      <a href="https://github.com/MAD-AAG/MAD-AAG/blob/main/photos/meetings/2023/REP-MAD_2023_Program.pdf">Program schedule is available here</a>
+    ],
     photos: [
       { src: "2023_bowl_01.jpg", caption: "Geography Bowl",      placeholder: false, tall: true  },
       { src: "2023_bowl_02.jpg", caption: "Bowl teams",          placeholder: false, tall: false },
