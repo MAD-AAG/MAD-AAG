@@ -24,7 +24,7 @@ window.PHOTOS = {
     "christopher-elcik.jpg": "https://www.salisbury.edu/_images/directory/cjelcik.jpg",
     "victor-irekponor.jpeg": "https://geospatial.umd.edu/sites/geospatial.umd.edu/files/styles/width320/public/smile.jpeg",
     "wataru-morioka.jpg":    "https://www.salisbury.edu/_images/directory/wxmorioka.jpg",
-    "jeremy-tasch.jpg":      "https://cdn.theorg.com/ba9bea14-b0ca-4ef2-87e3-a3510f32aa83_medium.jpg"
+    "jeremy-tasch.jpg":      "photos/officers/Tasch_Jeremy.png",
   },
 
   /* ── MEETING PHOTOS ─────────────────────────────────────── */

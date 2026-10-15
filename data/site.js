@@ -46,8 +46,8 @@ window.SITE = {
       institution: "Towson University",
       location:    "Towson, MD",
       email:       "JTasch@Towson.edu",
-      photo:       "jeremy-tasch.jpg",
-      bio:         "Dr. Tasch represents MAD on the AAG Council and focuses on political geography."
+      photo:       "Tasch_Jeremy.png",
+      bio:         "Dr. Tasch represents MAD on the AAG Council and focuses on political geography"
     },
     {
       role:        "Vice-Chair",
