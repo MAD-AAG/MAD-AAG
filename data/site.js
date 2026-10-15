@@ -115,8 +115,8 @@ window.SITE = {
       term: "2023–2026",
       officers: [
         { role: "Chair",             name: "Tracy Edwards",         institution: "Frostburg State University",     location: "Frostburg, MD",    photo: "", bio: "" },
-        { role: "Vice-Chair",        name: "Mike Allen*",           institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
-        { role: "Treasurer",         name: "Andrea Presotto*",      institution: "Salisbury University",           location: "Salisbury, MD",    photo: "", bio: "" },
+        { role: "Vice-Chair",        name: "Mike Allen",           institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" },
+        { role: "Treasurer",         name: "Andrea Presotto",      institution: "Salisbury University",           location: "Salisbury, MD",    photo: "", bio: "" },
         { role: "Regional Councilor",name: "Jeremy Tasch",          institution: "Towson University",              location: "Towson, MD",       photo: "", bio: "" }
       ]
     },
@@ -125,10 +125,10 @@ window.SITE = {
       officers: [
         { role: "Chair",             name: "Jeremy Tasch",         institution: "Towson University",                            location: "Towson, MD",       photo: "", bio: "" },
         { role: "Vice-Chair",        name: "Andrea Presotto",      institution: "Salisbury University",                         location: "Salisbury, MD",    photo: "", bio: "" },
-        { role: "Treasurer",         name: "Jaime Barrett*",       institution: "University of Maryland, Baltimore County",     location: "Frostburg, MD",    photo: "", bio: "" },
+        { role: "Treasurer",         name: "Jaime Barrett",       institution: "University of Maryland, Baltimore County",     location: "Frostburg, MD",    photo: "", bio: "" },
         { role: "Secretary",         name: "William Kiskowski",    institution: "Maryland State Data Center",                   location: "Baltimore, MD",    photo: "", bio: "" },
         { role: "Regional Councilor",name: "Tracy Edwards",        institution: "Frostburg State University",     　            location: "Frostburg, MD",    photo: "", bio: "" },
-        { role: "Student Representative",name: "Olivia Ward*",     institution: "Towson University",                            location: "Towson, MD",       photo: "", bio: "" }
+        { role: "Student Representative",name: "Olivia Ward",     institution: "Towson University",                            location: "Towson, MD",       photo: "", bio: "" }
       ]
     },
     {
@@ -145,7 +145,7 @@ window.SITE = {
       term: "2014–2017",
       officers: [
         { role: "Chair",             name: "Tracy Edwards",      institution: "Frostburg State University",     　      location: "Frostburg, MD",     photo: "", bio: "" },
-        { role: "Vice-Chair",        name: "Karen DeLong*",      institution: "Montgomery College",                     location: "Rockville, MD",     photo: "", bio: "" },
+        { role: "Vice-Chair",        name: "Karen DeLong",      institution: "Montgomery College",                     location: "Rockville, MD",     photo: "", bio: "" },
         { role: "Treasurer",         name: "Michael Ratcliffe",  institution: "US Census Bureau",                       location: "Washington, DC",    photo: "", bio: "" },
         { role: "Regional Councilor",name: "Jeremy Tasch",       institution: "Towson University",                      location: "Towson, MD",        photo: "", bio: "" }
       ]
