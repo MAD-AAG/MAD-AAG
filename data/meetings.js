@@ -20,8 +20,10 @@ window.MEETINGS = [
     cfpLink:     "",
     regLink:     "https://www.aag.org/events/middle-atlantic-regional-division-2026/",
     programLink: "",
-    keynote:     "Morning keynote: Jen Chadwick-Moore. Afternoon keynote: William \"Bill\" Moseley.",
-    description: "Registration is now open for the 2026 Middle Atlantic Division of the American Association of Geographers Annual Meeting. Join MAD-AAG on Friday, November 20, 2026, at Harford Community College in Bel Air, Maryland, for a one-day regional meeting bringing together students, faculty, educators, GIS professionals, and geography stakeholders across the Middle Atlantic region.",
+    participationLink: "photos/meetings/2026/2026_Call_for_Participation.pdf",
+    keynote:     "Morning keynote: Jen Chadwick-Moore, Maryland’s representative to the U.S. Board on Geographic Names. Afternoon keynote: William \"Bill\" Moseley, 2025–2026 AAG President.",
+    description: "Join MAD-AAG on Friday, November 20, 2026, at Harford Community College in Bel Air, Maryland, for a one-day regional meeting bringing together students, faculty, educators, GIS professionals, and geography stakeholders across the Middle Atlantic region. Registration is now open for the 2026 Middle Atlantic Division of the American Association of Geographers Annual Meeting. The registration link directs registrants to an AAG login page. AAG membership is not required, simply choose a username and password, if you do not already have AAG login credentials. Then complete the form as requested. After registering, you will be offered an opportunity to submit an abstract.",
+    poster:      "photos/meetings/2026/MAD_2026_poster.jpg",
     schedule: [
       { time: "8:00 AM",  event: "Registration" },
       { time: "9:00 AM",  event: "Opening Remarks & Keynote" },

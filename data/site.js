@@ -47,7 +47,7 @@ window.SITE = {
       location:    "Towson, MD",
       email:       "JTasch@Towson.edu",
       photo:       "jeremy-tasch.jpg",
-      bio:         "Dr. Tasch represents MAD on the AAG Council and focuses on political geography"
+      bio:         "Jeremy Tasch studies the critical geopolitics of resource access and civil society development in Eurasia and the circumpolar north."
     },
     {
       role:        "Vice-Chair",
@@ -208,6 +208,28 @@ window.SITE = {
    * Add newest items at the TOP of the list.
    */
   announcements: [
+    {
+      type:  "info",
+      date:  "October 2026",
+      title: "AAG Economic Geography Specialty Group: Fall Career Panel",
+      body:  `The AAG Economic Geography Specialty Group invites graduate students and early-career geographers to our annual Fall Career Panel, Careers in Economic Geography Beyond Academia.
+
+    When: Tuesday, November 3, 1 PM ET / 12 PM CT / 10 AM PT
+    Where: Zoom
+    Register: https://bit.ly/econgeogcareers
+
+    Panelists:
+    • Scott Markley, Chief Data Scientist, Land Use Labs, and Research Director, National Zoning Atlas
+    • Amanda Kass, Research Director, Good Jobs First
+    • Joshua Akers, Director of Research, Ewing Marion Kauffman Foundation
+    • Katie Wells, Senior Fellow, AI Now Institute
+
+    Economic geographers working in policy, philanthropy, advocacy, and research institutions will discuss how they built careers outside the tenure track, how they made their training legible to non-academic employers, and which industries and areas are seeing growing demand for geographers. The session closes with an audience Q&A.
+
+    Questions for the panelists may be sent in advance to Induja Kumar at indujak@arizona.edu or entered during registration.`,
+      link:      "https://bit.ly/econgeogcareers",
+      linkLabel: "Register"
+    },
     {
       type:  "",
       date:  "August 2026",

@@ -185,12 +185,14 @@ function renderMeetings() {
   var actions = [
     next.cfpLink     ? '<a class="btn btn-primary" href="' + next.cfpLink     + '" target="_blank">Submit Abstract</a>' : '',
     next.regLink     ? '<a class="btn btn-outline" href="' + next.regLink     + '" target="_blank">Register</a>'        : '',
-    next.programLink ? '<a class="btn btn-outline" href="' + next.programLink + '" target="_blank">View Program</a>'    : ''
+    next.programLink ? '<a class="btn btn-outline" href="' + next.programLink + '" target="_blank">View Program</a>'    : '',
+    next.participationLink ? '<a class="btn btn-outline" href="' + next.participationLink + '" target="_blank">Call for Participation</a>' : '',
   ].filter(Boolean).join('');
   document.getElementById('mtg-hero-actions').innerHTML = actions || '<span style="color:rgba(255,255,255,.6);font-size:.9rem;">Registration details coming soon</span>';
 
   document.getElementById('mtg-description').innerHTML = '<p style="color:var(--muted);">' + (next.description || '') + '</p>'
-    + (next.keynote ? '<p style="color:var(--muted);"><strong>Keynote:</strong> ' + next.keynote + '</p>' : '');
+    + (next.keynote ? '<p style="color:var(--muted);"><strong>Keynote:</strong> ' + next.keynote + '</p>' : '')
+    + (next.poster ? '<img src="' + next.poster + '" alt="Meeting poster" style="margin-top:20px;max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,.15);">' : '');
 
   document.getElementById('mtg-schedule').innerHTML = (next.schedule || []).length
     ? '<table class="schedule-table">' + next.schedule.map(function(s) { return '<tr><td class="schedule-time">' + s.time + '</td><td>' + s.event + '</td></tr>'; }).join('') + '</table>'
@@ -225,7 +227,8 @@ function renderMeetingDetail(year) {
 
   document.getElementById('archive-links').innerHTML = [
     m.programLink ? '<a class="btn btn-primary btn-sm" href="' + m.programLink + '" target="_blank">View Program</a>' : '',
-    m.cfpLink     ? '<a class="btn btn-ghost btn-sm"   href="' + m.cfpLink     + '" target="_blank">Original CFP</a>' : ''
+    m.cfpLink     ? '<a class="btn btn-ghost btn-sm"   href="' + m.cfpLink     + '" target="_blank">Original CFP</a>' : '',
+    m.participationLink ? '<a class="btn btn-outline btn-sm" href="' + m.participationLink + '" target="_blank">Call for Participation</a>' : ''
   ].filter(Boolean).join('');
 
   document.getElementById('archive-description').innerHTML = '<p style="color:var(--muted);">' + (m.description || '') + '</p>'

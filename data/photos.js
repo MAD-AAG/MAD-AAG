@@ -37,7 +37,8 @@ window.PHOTOS = {
       "aag2026_bowl_04.jpg": "photos/meetings/aag2026/aag2026_bowl_04.jpg",
       "aag2026_bowl_05.jpg": "photos/meetings/aag2026/aag2026_bowl_05.jpg",
       "aag2026_bowl_06.jpg": "photos/meetings/aag2026/aag2026_bowl_06.jpg",
-      "aag2026_bowl_07.jpg": "photos/meetings/aag2026/aag2026_bowl_07.jpg"
+      "aag2026_bowl_07.jpg": "photos/meetings/aag2026/aag2026_bowl_07.jpg",
+      "MAD_2026_poster.jpg": "photos/meetings/2026/MAD_2026_poster.jpg"
     },
 
     2025: {
